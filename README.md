@@ -162,6 +162,73 @@
 - ## Calculando o tempo:
 - ## Finalizando a aplicação
 - ## Revisão:
+
+## Mão na massa - Editor de textos:
+- ## Iniciando o projeto:
+- ## Iteração e caractere de escape:
+- ## Do/While na prática:
+- ## StreamWriter
+- ## Salvando arquivo:
+- ## Abrindo Arquivos:
+- ## Revisão:
+
+## Strings:
+- ## Guids:
+- ## Interpolação de Strings:
+- ## Comparação de Strings:
+- ## StartsWith/EndsWith:
+- ## Equals:
+- ## Índices:
+- ## Métodos adicionais:
+- ## Manipulando strings:
+- ## StringBuilder:
+- ## Revisão:
+
+## Mão na massa - Editor HTML:
+- ## Iniciando o projeto:
+- ## Desenhando a tela:
+- ## Exibindo o menu:
+- ## Menu da aplicação:
+- ## Editor:
+- ## Visualizador:
+- ## Substituindo caracteres:
+- ## Revisão:
+
+## Datas:
+- ## Iniciando com datas:
+- ## Obtendo valores da data:
+- ## Formatando datas:
+- ## Padrões de formatação:
+- ## Adicionando valores:
+- ## Comparando datas:
+- ## CultureInfo:
+- ## Timezone:
+- ## Timespan:
+- ## Revisão:
+
+## Moedas:
+- ## Tipo para moedas:
+- ## Formatando moedas:
+- ## Math:
+- ## Revisão:
+
+## Arrays:
+- ## Arrays:
+- ## Percorrendo um array:
+- ## ForEach:
+- ## Alterndo valores:
+- ## Revisão:
+
+## Exceptions:
+- ## Exceptions:
+- ## Try/Catch:
+- ## Tratando erros:
+- ## Disparando exceções:
+- ## Finally:
+- ## Revisão:
+
+## Conclusão:
+
 ## Glossário:
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
