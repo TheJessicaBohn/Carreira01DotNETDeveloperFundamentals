@@ -87,7 +87,14 @@
       decimal => 128 bit
       ```
 - ## Revisão:
- 
+  - **Definições:**
+  - Linguagens Tipadas e não tipadas;
+      - Sendo o C# uma linguagem tipada ou fortemente tipada;
+  - Linguagens compiladas ou interpretadas;
+      - Sendo o C# uma linguagem compilada;
+  - Linguagens de alto e de baixo nível;
+      - Sendo o C# de alto nível;
+  - Compildores Vs Interpretadores;
         
 
 ## C#:
