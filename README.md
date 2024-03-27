@@ -60,7 +60,35 @@
           - Pode ser mais burocrática, pelo fato de ter que instalar programas a parte, além de que se você criou uma aplicação com erro, é necessário recompilar de novo e redistribuir a aplicação;
 
 - ## Tipagem de dados:
+  - **Definições:**
+    - São linguagens também chamadas de fortemente tipadas;
+    - Obrigam a especificar o **tipo de dado** da informação;
+    - Menor liberdade (diferente do JavaScript com var);
+    - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e nde guardar aquela variável;
+     ``` int idade = 18; // Ok
+     int idade = 18.2; // Erro
+     int idade = "18"; // Erro
+     int idade = 'a'; // Erro
+     ```
+    - Nada fora de um número inteiro é aceito no caso acima em C#, que é uma linguagem fortemente tipada;
+    - Esse mesmo exemplo em JavaScript que é uma linguagem fracamente ou não tipada, teriamos o seguinte resultado:
+     ``` int idade = 18; // Ok
+      int idade = 18.2; // Ok
+      int idade = "18"; // Ok
+      int idade = 'a'; // Ok
+      ```
+    - Por definição os tipos são para padronizar os dados, para nós e para o processador/memória;
+    - O **let** utiliza sempre o mesmo tamanho de alocação;
+    - Tipando temos uma otimização, o compilador avisa do erro, além de saber o espaço de memória a ser alocado previamente, trazendo assim mais performance para o programa;
+    - Exemplo no **C#**:
+     ``` int => 32 bit
+      float => 32 bit
+      double => 64 bit
+      decimal => 128 bit
+      ```
 - ## Revisão:
+ 
+        
 
 ## C#:
 - ## Por que utilizar C#?
@@ -232,6 +260,7 @@
 ## Glossário:
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
+- **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 
 ## Fonte:
 - ## https://balta.io/carreiras/dotnet-fundamentals
