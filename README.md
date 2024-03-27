@@ -232,3 +232,6 @@
 ## Glossário:
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
+
+## Fonte:
+- ## https://balta.io/carreiras/dotnet-fundamentals
