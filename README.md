@@ -99,6 +99,10 @@
 
 ## C#:
 - ## Por que utilizar C#?
+  - C# é ima linguagem de programação: tipada compilada e gerenciada;
+  - Criada por Anders Hejlsberg (também criador do Delphi e do TypeScript)
+em meados de 2001;
+  - Principal linguagem da Microsoft (Substituindo VB) ;
 - ## C# como primeira linguagem:
 - ## Código gerenciado:
 - ## Compilação e gerenciamento:
