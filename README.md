@@ -146,7 +146,24 @@ em meados de 2001;
   - Permite interagirmos menos ou quase não interagirmos com recursos de maquina, ou seja tira essa parte mais "mecanica" na mão do desenvolvedor;
     - O gerenciador vai saber a hora de alocar ou limpar a memoria, qual área é segura e assim por diante;
     - Dessa forma é possível focar muito mais nas regras de negócio;
+
 - ## Compilação e gerenciamento:
+  - **Definições:**
+  - A MS possui outras linguagens como o VB.NET, F#, e até mesmo Cobol.NET;
+  - Todas elas precisam ser mantidas;
+    - Manutenção de código mesmo, correções de bugs e afins;
+  - Quando o ecossistema de desenvolvimento MS foi criado ele foi pensado desta forma:
+    -  Suporte a várias linguagens;
+  - Se cada linguagem tiver um gerenciador, isto seria muito complicado;
+  - Os compiladores são separados;
+    - Um para cada linguagem (ou mais de uma linguagem);
+  - A compilação inicial gera um código intermediário (não gera o código binário);
+    - Intermediate Language (IL);
+    - Serve para manter apenas um gerenciador final;
+    - Quando compilamos o código C# ele é traduzido para essa liguagem intermédiaria e depois ele é compilado, assim como nas outras linguagens como o VB.Net, F# e outras linguagens;
+    - Isso é muito legal pois permite que tenha apenas um gerenciador final para essas linguagens, e tenhamos diferentes tipos de arquivos dentro do nosso projeto, então nada impede de que tenhamos um arquivo VB.NET ou F# dentro do nosso projeto C#;
+    - Mas geralmente escolhemos apenas um tipo de linguagem apenas;
+
 - ## IL:
 - ## Revisão:
 
@@ -312,6 +329,8 @@ em meados de 2001;
 ## Glossário:
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
+- **IL:** Sigla para Intermediate Language;
+- **MS:** MicroSoft;
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
 - **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
