@@ -95,7 +95,6 @@
   - Linguagens de alto e de baixo nível;
       - Sendo o C# de alto nível;
   - Compildores Vs Interpretadores;
-        
 
 ## C#:
 - ## Por que utilizar C#?
@@ -128,7 +127,25 @@ em meados de 2001;
     - Dificuldade em codificar coisas diferentes do seu cotidiano;
     - Resistência a mudanças, medo de aprender ou fazer coisas novas;
     - Pare e aprenda agora;
+
 - ## Código gerenciado:
+  - **Lembrando que:**
+  - C# é uma uma linguagem fortemente tipada;
+  - Compilada e;
+  - De código **gerenciado**;
+  - **Definições:**
+  - Significa que a sua execução depende de um gerenciador;
+  - Também conhecida como **Runtime**;
+    - No caso o do C# o **Runtime**  se chama **CLR** ou **CLR Runtime**;
+  - Gerencia memória, segurança, entre outros recursos básicos;
+  - Linguagens como C/C++ por exemplo, se faz necessário a alocação de memória manualmente (fora do .NET);
+    - Famoso ``` p = malloc (sizeof (int));
+                 *p = 123;
+                 free (p);```, que alocava e desalocava memória, e as chances de dar bugs e erros eram muito grandes;
+  - Sabe a famosa tela azul do Windows? Isso ocorre muitas vezes pois algum programa tentou acessar uma mémoria que era reservado para o SO;
+  - Permite interagirmos menos ou quase não interagirmos com recursos de maquina, ou seja tira essa parte mais "mecanica" na mão do desenvolvedor;
+    - O gerenciador vai saber a hora de alocar ou limpar a memoria, qual área é segura e assim por diante;
+    - Dessa forma é possível focar muito mais nas regras de negócio;
 - ## Compilação e gerenciamento:
 - ## IL:
 - ## Revisão:
@@ -293,8 +310,10 @@ em meados de 2001;
 ## Conclusão:
 
 ## Glossário:
+- **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
+- **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 
