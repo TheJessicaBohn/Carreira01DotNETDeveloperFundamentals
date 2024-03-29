@@ -111,7 +111,23 @@ em meados de 2001;
    - Aplicabilidade, por ser muito completa, aprendendo bem o C#, você está hábil a criar qualquer tipo de aplicação com uma boa base;
    - MicroSoft por trás;
    - Orientação à Objetos;
+
 - ## C# como primeira linguagem:
+  - **Definições:**
+  - Não é a mais fácil, existem outras como **Python** como **JavaScript**, onde se tem bem menos coisas pra se aprender, e por esse motivo são relativamente mais fáceis de serem aprendidas;
+  - Focada em OOP (Base da programação), todo desenvolvedor precisa saber de Programação orientada a objetos, e o C# te obriga a trabalhar nesse formato;
+    - Temos também a progrmação funcional;
+  - Fácil no começo pode te prejudicar no fim, pois se você começa com uma linguagem não orientada a objetos uma hora você vai precisar saber sobre o assunto;
+  - OOP te dá a base para aprender coisas novas, principalmente que surgem o tempo todo na nossa área atualmente;
+  - A conta uma hora vem, se você não aprender agora, vai ter que voltar e aprender;
+  - Quanto mais tempo na base, mais fácil de aprender coisas novas, se você passar muito rapidamente pela base e partir logo pra framework e coisas mais avançadas vai chegar uma hora que você vai ficar estaguinando na sua carreira, aí você vai ter que parar pra aprender o básico;
+  - A quantidade de horas é a mesma, pois se não você vai ter que voltar para trás pra aprender;
+    - Você escolhe quanto tempo vai investir no básico, não existe mágica, tem que praticar, por mais que seja chato e não prazeroso;
+  - Se você não consolidou o básico ainda:
+    - Você tem dificuldades de aprender coisas novas, se você demora muito pra aprender coisas novas é porque você não sabe bem o básico;
+    - Dificuldade em codificar coisas diferentes do seu cotidiano;
+    - Resistência a mudanças, medo de aprender ou fazer coisas novas;
+    - Pare e aprenda agora;
 - ## Código gerenciado:
 - ## Compilação e gerenciamento:
 - ## IL:
@@ -278,6 +294,7 @@ em meados de 2001;
 
 ## Glossário:
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
+- **OOP - Object-oriented programming: ** Programação orientada a objetos;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 
