@@ -103,6 +103,14 @@
   - Criada por Anders Hejlsberg (também criador do Delphi e do TypeScript)
 em meados de 2001;
   - Principal linguagem da Microsoft (Substituindo VB) ;
+   - **Vantagens:**
+   - Linguagem completa - Uma das mais completas do mercado atualmente, e como ele faz parte de um ecossistema não serve para apenas para aplicações web ou desktop e mobile, ele serve também para machine learn em data science, diversas outras tecnologias e frameworks também usam C#, assim como games, por exemplo o Unity que é uma das plataformas mais famosas;
+   - Maturidade, desde a sua criação em 2001 ele vem sido atualizado, e pelo tempo que ele está no mercado tem muito conteúdo, diferente de uma nova tecnologia que você tem que desbravar tudo sozinho além do fato que pode ser que não vingue. Além de achar mais facilmente profissionais na área;
+   - Mercado enterprise, mais voltado para grande empresas, até pela dificulade das grandes empresas em fazer mudanças;
+   - Comunidade, grande quantidade de comunidade pelo mundo trazendo assim um amparo;
+   - Aplicabilidade, por ser muito completa, aprendendo bem o C#, você está hábil a criar qualquer tipo de aplicação com uma boa base;
+   - MicroSoft por trás;
+   - Orientação à Objetos;
 - ## C# como primeira linguagem:
 - ## Código gerenciado:
 - ## Compilação e gerenciamento:
