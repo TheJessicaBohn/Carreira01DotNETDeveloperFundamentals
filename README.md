@@ -165,6 +165,19 @@ em meados de 2001;
     - Mas geralmente escolhemos apenas um tipo de linguagem apenas;
 
 - ## IL:
+  - **Definições:**
+  - Embora as compilações sejam diferentes:
+    - O gerenciamento é igual;
+    - Alocação de memoria;
+    - Execução de instruções no processador;
+  - O CLR recebe um código e compila ele para IL:
+    - C#, VB.NET, F#, Cobol.NET;
+  - Podemos ter arquivos C# e VB.NET no mesmo projeto:
+    - Porém nunca no mesmo arquivo;
+  - O resultado da compilação IL é sempre o mesmo
+    
+    ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/ccbee0a1-05e9-40d6-81d1-42a7e571a68c)
+ 
 - ## Revisão:
 
 ## Frameworks:
