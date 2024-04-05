@@ -214,6 +214,16 @@ em meados de 2001;
   - Não vale a pena começar sem um pois o risco é menor;
 
 - ## .NET Framework:
+  - **Definições:**
+  - C# é a linguagem, tem vagas que colocam "AspNet", mas o correto é que a linguagem é o C#;
+  - O nome do framework é .NET, pelo boom da internet nos anos 2000;
+  - Teve a sua primeira versão em meados de 2001;
+    - chamado de .NET Framework, Framework explicitamente no nome;
+  - Recebeu as versões 1.0, 1.1, 2.0, 3.0, 3.5, 4.X (atualmente);
+  - Pode ser instalado Side-by-Side, ou seja, mais de uma versão desse .NET;
+  - Compatível somente com Windows, só da pra hospedar em maquinas Windows, não suportando Mac, Linux, etc;
+  - Considerado **legado**;
+
 - ## .NET Core:
 - ## Standard:
 - ## .NET 5:
@@ -375,6 +385,7 @@ em meados de 2001;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **IL:** Sigla para Intermediate Language;
 - **JIT:** Sigla para Just In Time;
+- **Legado:** Sofwares mais de idade
 - **MS:** MicroSoft;
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
 - **SO:** Sistema Operacional;
