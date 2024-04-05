@@ -180,6 +180,13 @@ em meados de 2001;
     ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/ccbee0a1-05e9-40d6-81d1-42a7e571a68c)
  
 - ## Revisão:
+  - **Definições:**
+  - C# é maduro, completo, popular e tem muito material;
+  - Linguagem, gerenciada, compilada e de alto nível;
+  - É uma linguagem desafiadora,mas vai te dar uma ótima bagagem;
+  - O C# é compilado inicialmente para IL;
+  - Depois o CLR compila para código de maquina, executa e gerencia, mão na roda para o progrmador não ter que fazer o processo na mão;
+  - IL é a linguagem intermediaria na qual todas as linguagens da Microsoft são compiladas;
 
 ## Frameworks:
 - ## Frameworks:
