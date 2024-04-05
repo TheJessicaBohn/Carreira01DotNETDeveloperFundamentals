@@ -173,8 +173,9 @@ em meados de 2001;
   - O CLR recebe um código e compila ele para IL:
     - C#, VB.NET, F#, Cobol.NET;
   - Podemos ter arquivos C# e VB.NET no mesmo projeto:
-    - Porém nunca no mesmo arquivo;
-  - O resultado da compilação IL é sempre o mesmo
+    - Porém nunca no mesmo arquivo, pela sintaxe de cada linguagem;
+  - O resultado da compilação IL é sempre o mesmo;
+  - O processo de conversão do IL para binário é conhecido como JIT
     
     ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/ccbee0a1-05e9-40d6-81d1-42a7e571a68c)
  
@@ -343,6 +344,7 @@ em meados de 2001;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - **IL:** Sigla para Intermediate Language;
+- **JIT:** Sigla para Just In Time;
 - **MS:** MicroSoft;
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
 - **SO:** Sistema Operacional;
