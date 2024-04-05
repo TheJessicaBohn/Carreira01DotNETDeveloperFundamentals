@@ -189,7 +189,30 @@ em meados de 2001;
   - IL é a linguagem intermediaria na qual todas as linguagens da Microsoft são compiladas;
 
 ## Frameworks:
+
 - ## Frameworks:
+  - **Definições:**
+  - Framework é uma estrutura, um alicerce
+    - Um conjunto de bibliotecas;
+  - Usamos como base para construir nossas aplicações
+    - Pra não precisar fazer tudo, começando do zero, como por exemplo escrever um arquivo texto no disco;
+    - Quando utilizamos um framework, estamos utilizando um código base que já foi testado, estressando e temos assim, n outras garantias;
+  - Conceito existente em diversas tecnologias, como por exemplo Java, JavaScript, etc;
+  - Nesse curso veremos o **.NET**, um Framework Microsoft;
+  - Ideia é trazer recursos comuns jé prontos:
+    - Itens do dia-a-dia;
+    - Escrita de arquivo em disco, por exemplo:
+      - Acesso a banco de dados;
+      - Criar um site;
+      - Criar uma aplicação Desktop;
+      - Um desenho de uma janela do Windows;
+      - O desenho de um botão;
+  - .NET nasceu junto com o C# em 2001
+  - Framework poderoso; 
+  - Validados e testados;
+  - Nos poupam muito tempo;
+  - Não vale a pena começar sem um pois o risco é menor;
+
 - ## .NET Framework:
 - ## .NET Core:
 - ## Standard:
