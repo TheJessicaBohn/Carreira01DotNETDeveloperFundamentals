@@ -261,6 +261,14 @@ em meados de 2001;
   - A imagem ilustra como funciona o Standard
 
 - ## .NET 5:
+  - **Definições:**
+  - Apesar de estar utilizand o .NET 8, achei importantande manter esse tópico do .NET 5 pois ele foi o precursor da unificação dos Frameworks;
+  - O .NET Core chegou ao .NET Framework em nível de conteúdo;
+  - Não faz mais sentido ter os dois frameworks;
+  - Lançado em Novembro de 2020;
+  - Perde os prefixos Framework e Core, ficando apenas .NET;
+  - Retrocompatível;
+
 - ## LTS:
 - ## Versionamento:
 - ## Runtime e SDK:
