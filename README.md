@@ -240,7 +240,26 @@ em meados de 2001;
     - Muitas melhorias de porformance;
     - [**Versões**](https://learn.microsoft.com/pt-br/dotnet/core/releases-and-support);
     - Instalação Side-by-Side;
+
 - ## Standard:
+  - **Definições:**
+  - .NET Framework e .NET Core coexistem, isso é bom para migrar projetos, já que o primeiro já é legado;
+    - Podem ser instalados juntos;
+    - Podem ser utilizados no mesmo projeto;
+  - Como garantir que algo que escrevemos roda em ambos?
+
+![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/45124569-261c-4009-b5b2-afb6b774fa86)
+  - Como podemos ver na imagem acima o .NET Standard é a intersecção desses dois frameworks;
+  - Ele não é um framework, ele é apenas um contrato;
+    - Também chamado de surface API
+  - Garante que tudo que escrevemos será compatível com ambos frameworks;
+
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/62278aec-9872-40a5-b0f0-2eda55892867)
+  
+  Fonte: Microsoft
+  - Atualmente o Xamarim, vai ter suporte até 1° de Maio de 2024, e está sendo substituído pelo Maui
+  - A imagem ilustra como funciona o Standard
+
 - ## .NET 5:
 - ## LTS:
 - ## Versionamento:
