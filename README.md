@@ -225,6 +225,21 @@ em meados de 2001;
   - Considerado **legado**;
 
 - ## .NET Core:
+  - **Definições:**
+  - Versão moderna no .NET Framework (isso na ópoca em que o curso foi lançado, hoje atualmente em abril de 2024 temos o **.NET 8** é o mais recente) ;
+  - Lançado em meados de 2015;
+  - Veio especialmente para suportar outros SOs como Linux e Mac;
+  - Suas primeiras versões continham apenas o básico:
+    - Core significa núcleo, ou seja o essencial;
+    - Mudar um framework usado por milhões de não é fácil;
+    - Foi totalmente reescrito;
+    - Isso trouxe um monte de benefícios pois melhorou o framework e a linguagem, arrumou bugs alémde deixar ambos mais rápidos;
+    - Ainda assim com uma ótima retro compatibilidade;
+    - Na época do curso a versão era 3.1, era bem atual e eu trabalhava com essa versão no meu atual trabalho, já era muito boa, mas atualmente já migramos para 5, 6 e 8, e cada vez menos temos que escrever códigos nessas novas versões, inclusive estou usando o .NET 8, pois esse é o me computador pessoal, porém eu trabalho nele, o .NET roda as duas versões concomitantemente, porém as vezes é necessário clonar novamente repositórios e quando rodamos pela primeira vez, na hora de criar um arquivo de debug ele sempre pegas as versões mais antigas, então por esse motivo e também porque sempre temos que atualizar, estarei utilizando o .NET 8, nesse repositório;
+    - Recomendação atual da MS (atualmente continua sendo);
+    - Muitas melhorias de porformance;
+    - [**Versões**](https://learn.microsoft.com/pt-br/dotnet/core/releases-and-support);
+    - Instalação Side-by-Side;
 - ## Standard:
 - ## .NET 5:
 - ## LTS:
