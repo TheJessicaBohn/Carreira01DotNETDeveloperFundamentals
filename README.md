@@ -282,6 +282,37 @@ em meados de 2001;
   - Opte sempre por LTS para projetos em produção:
 
 - ## Versionamento:
+  - **Definições:**
+  - Vesão Semântica:
+    - Dividida em fases:
+      - Alpha, Beta, Release Candidate, Final;
+    - Dividida em três partes:
+      - Major, Minor, Patch;
+  - **Alpha:**
+    - Ainda não se sabe como vão ser as coisas;
+    - Muito ainda pode mudar;
+  - **Beta:**
+    - Já tem ideia da estrutura;
+    - As coisas ainda podem mudar;
+  - **Release Candidate:**
+    - Candidato a versão final;
+  - **Final:**
+    - Versão Final, então precisamos tomar cuidado com as versões anteriores; 
+  - **15.8.2**;
+  - **Major:(15)**
+    - Pode conter incompatibilidades com versões anteriores;
+    - Chamadas de breaking changes;
+  - **Minor:(8)**
+    - Possui mudanças, mas é totalmente compatível com versões anteriores;
+    - Backward Compatibility;
+ - **PATCH:(2)** Correcões de bugs e outros itens simples;
+ - Podemos utilizar anotações com:
+   - Alpha => 0.0.1-a1;
+   - Beta => 0.0.2-b1;
+   - Release Candidate => 1.0.0-rc1
+   - Final => 1.0.0
+ - Normalmente alpha e beta tem versões menores que 1.0.0;
+
 - ## Runtime e SDK:
 - ## Revisão:
 
@@ -434,14 +465,21 @@ em meados de 2001;
 ## Conclusão:
 
 ## Glossário:
+- **Alpha:** Esboço de algo feito, e está longe de ter uma versão final;
+- **Beta:** Versão de testes,mas não chega a ser uma versão finalde algo que já está funcionando, e já temos uma ideia de como vai ser no final;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
+- **Final:** Versão final da aplicação;
 - **IL:** Sigla para Intermediate Language;
 - **JIT:** Sigla para Just In Time;
 - **Legado:** Sofwares mais de idade
+- **Major:** Sempre o primeiro número de uma release, a release maior. Ex.: versão 2 para versão 3, podendo ser até um produto novo, e não tem garantia nenhuma da versão anterior para nova;
+- **Minor:** Sempre o segundo número, ex.: versão 2.1 para versão 2.2, significa que as mudanças foram pequenas e mais leves, elas podem quebrar, mas não é uma mudança completa, não trocou um pacote ou um produto;
 - **MS:** MicroSoft;
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
-- **Releases:** Nova versão de um aplicativo;
+- **Patch:** Terceiro número 2.1.0 para 2.1.1. Correção de bugs;
+- **Release:** Nova versão de um aplicativo;
+- **Release Candidate:** É a release canditada a ser a versão final da nossa aplicação. Está com os bugs corrigidos, nomes corretos;
 - **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
