@@ -309,8 +309,8 @@ em meados de 2001;
  - Podemos utilizar anotações com:
    - Alpha => 0.0.1-a1;
    - Beta => 0.0.2-b1;
-   - Release Candidate => 1.0.0-rc1
-   - Final => 1.0.0
+   - Release Candidate => 1.0.0-rc1;
+   - Final => 1.0.0;
  - Normalmente alpha e beta tem versões menores que 1.0.0;
 
 - ## Runtime e SDK:
