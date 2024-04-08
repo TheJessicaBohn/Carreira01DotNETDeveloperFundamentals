@@ -248,7 +248,7 @@ em meados de 2001;
     - Podem ser utilizados no mesmo projeto;
   - Como garantir que algo que escrevemos roda em ambos?
 
-![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/45124569-261c-4009-b5b2-afb6b774fa86)
+  ![intersecção](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/320387ac-0d33-41eb-b7a2-efdd524376ce)
   - Como podemos ver na imagem acima o .NET Standard é a intersecção desses dois frameworks;
   - Ele não é um framework, ele é apenas um contrato;
     - Também chamado de surface API
@@ -270,6 +270,17 @@ em meados de 2001;
   - Retrocompatível;
 
 - ## LTS:
+  - **Definições:** Releases;
+  - .NET Framework: Não possuia data de lançamento programada;
+  - .NET Core: Lançamentos (Releases) semestrais;
+  - .NET 5 e futuros: Lançamentos Anuais;
+  - Releases com tempo menor, tem menos quebra de código;
+  - Sigla para Long Term Support: Suporte de longa data;
+  - .NET Framework: Todos eram;
+  - .NET Core: Versões com final 1: 1.1, 2.1, 3.1...
+  - .NET 5 e futuros: Versões maiores (Major Version) ou .0;
+  - Opte sempre por LTS para projetos em produção:
+
 - ## Versionamento:
 - ## Runtime e SDK:
 - ## Revisão:
@@ -430,6 +441,7 @@ em meados de 2001;
 - **Legado:** Sofwares mais de idade
 - **MS:** MicroSoft;
 - **OOP - Object-oriented programming: ** Programação orientada a objetos;
+- **Releases:** Nova versão de um aplicativo;
 - **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
