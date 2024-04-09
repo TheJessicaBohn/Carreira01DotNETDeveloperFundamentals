@@ -314,6 +314,37 @@ em meados de 2001;
  - Normalmente alpha e beta tem versões menores que 1.0.0;
 
 - ## Runtime e SDK:
+  - **Definições:** Runtime
+  - Necessário para executar aplicações;
+  - É dividido em 3 partes:
+    - ASP.NET para aplicações web;
+    - Desktop para aplicações desktop;
+    - .NET Core para qualquer outra aplicação;
+      - Console, Batch, Serviço
+      - Não possui uma interface por exemplo
+  - Também possui versões;
+    - A versão tem que ser compatível com a versão utilizada durante a codificação;
+  - Usado somente para distribuir as aplicações;
+    - Apenas executa.
+  - Tamanho menor, otimizado para execução;
+  - **Definições:** SDK
+  - Sigla para Software Development Kit: Kit para desenvolvimento de software;
+  - Possui tudo o que precisamos para criar aplicações;
+  - Já vem com o Runtime integrado;
+  - Não devemos utilizar em produção, pois em produção só é necessário o Runtime;
+  - É maior que o Runtime, pois vem com tudo o que precisamos
+ - **Definições:** Requisitos
+   - Windows:
+
+   ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/76e9941b-373b-47f8-8617-bdea0d051de6)
+
+   Fonte: Microsoft
+   - Linux:
+
+   ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3c783291-6c8b-4ad4-b680-5c74ec83e15b)
+
+   Fonte: Microsoft
+
 - ## Revisão:
 
 ## .NET
