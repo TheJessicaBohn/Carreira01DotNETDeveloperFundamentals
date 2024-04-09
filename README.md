@@ -11,29 +11,29 @@
             - Que será traduzido para binário;
 
 - ## Alto e Baixo Nível:
-    - **Definições:**
-      - O envio de instruções ao computador é o nível de maquina;
-      - As instruções ao computador sempre serão no formato binário;
-      - Quanto mais detalhada(como microproessadores que tem pouca memória) a necessidade, mais baixo é o nível;
-      - Linguagens mais modernas e mais proximas do usuário, como C# e Java, são chamados de liguagem de alto nível, pois é mais favorecida para os usuários em detrimento do processador;
-      - Assembly: Baixo nível;
-      - C#: Alto nível;
-      - Linguagens de alto nível são geralmente mais escolhidas pois trazem um acesso há tudo que precisamos em nível de hardware, já prontos;
+  - **Definições:**
+  - O envio de instruções ao computador é o nível de maquina;
+  - As instruções ao computador sempre serão no formato binário;
+  - Quanto mais detalhada(como microproessadores que tem pouca memória) a necessidade, mais baixo é o nível;
+  - Linguagens mais modernas e mais proximas do usuário, como C# e Java, são chamados de liguagem de alto nível, pois é mais favorecida para os usuários em detrimento do processador;
+  - Assembly: Baixo nível;
+  - C#: Alto nível;
+  - Linguagens de alto nível são geralmente mais escolhidas pois trazem um acesso há tudo que precisamos em nível de hardware, já prontos;
  
 - ## Linguagens compiladas e interpretadas:
-    - **Definições:**
-      - **Compiladas:**
-          - É quando existe o processo de compilção da linguagem;
-          - Consiste em receber um arquivo de texto e convertê-lo num binário;
-          - Normamente são mais legíveis para o ser humano;
-      - **Interpretadas:**
-          - Arquivos de testo puro, não transformados em binários;
-          - Eles são lidos em tempo de execução, por um intérprete;
-          - JavaScript é um exemplo de linguagem interpretada;
-          - No caso do JavaScript:
-              - O navegador é escrito em uma linguagem de auto nível;
-              - Possuindo um interpretador;
-              - Lê e executa um arquivo de JavaScript;
+  - **Definições:**
+  - **Compiladas:**
+      - É quando existe o processo de compilção da linguagem;
+      - Consiste em receber um arquivo de texto e convertê-lo num binário;
+      - Normamente são mais legíveis para o ser humano;
+  - **Interpretadas:**
+      - Arquivos de testo puro, não transformados em binários;
+      - Eles são lidos em tempo de execução, por um intérprete;
+      - JavaScript é um exemplo de linguagem interpretada;
+      - No caso do JavaScript:
+          - O navegador é escrito em uma linguagem de auto nível;
+          - Possuindo um interpretador;
+          - Lê e executa um arquivo de JavaScript;
 
 - ## Compilada VS Interpretada:
   - **Definições:**
@@ -61,39 +61,39 @@
 
 - ## Tipagem de dados:
   - **Definições:**
-    - São linguagens também chamadas de fortemente tipadas;
-    - Obrigam a especificar o **tipo de dado** da informação;
-    - Menor liberdade (diferente do JavaScript com var);
-    - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e nde guardar aquela variável;
-     ``` int idade = 18; // Ok
-     int idade = 18.2; // Erro
-     int idade = "18"; // Erro
-     int idade = 'a'; // Erro
-     ```
-    - Nada fora de um número inteiro é aceito no caso acima em C#, que é uma linguagem fortemente tipada;
-    - Esse mesmo exemplo em JavaScript que é uma linguagem fracamente ou não tipada, teriamos o seguinte resultado:
-     ``` int idade = 18; // Ok
-      int idade = 18.2; // Ok
-      int idade = "18"; // Ok
-      int idade = 'a'; // Ok
-      ```
-    - Por definição os tipos são para padronizar os dados, para nós e para o processador/memória;
-    - O **let** utiliza sempre o mesmo tamanho de alocação;
-    - Tipando temos uma otimização, o compilador avisa do erro, além de saber o espaço de memória a ser alocado previamente, trazendo assim mais performance para o programa;
-    - Exemplo no **C#**:
-     ``` int => 32 bit
-      float => 32 bit
-      double => 64 bit
-      decimal => 128 bit
-      ```
+  - São linguagens também chamadas de fortemente tipadas;
+  - Obrigam a especificar o **tipo de dado** da informação;
+  - Menor liberdade (diferente do JavaScript com var);
+  - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e nde guardar aquela variável;
+  ``` int idade = 18; // Ok
+  int idade = 18.2; // Erro
+  int idade = "18"; // Erro
+  int idade = 'a'; // Erro
+  ```
+  - Nada fora de um número inteiro é aceito no caso acima em C#, que é uma linguagem fortemente tipada;
+  - Esse mesmo exemplo em JavaScript que é uma linguagem fracamente ou não tipada, teriamos o seguinte resultado:
+  ``` int idade = 18; // Ok
+  int idade = 18.2; // Ok
+  int idade = "18"; // Ok
+  int idade = 'a'; // Ok
+  ```
+  - Por definição os tipos são para padronizar os dados, para nós e para o processador/memória;
+  - O **let** utiliza sempre o mesmo tamanho de alocação;
+  - Tipando temos uma otimização, o compilador avisa do erro, além de saber o espaço de memória a ser alocado previamente, trazendo assim mais performance para o programa;
+  - Exemplo no **C#**:
+  ``` int => 32 bit
+  float => 32 bit
+  double => 64 bit
+  decimal => 128 bit
+  ```
 - ## Revisão:
   - **Definições:**
   - Linguagens Tipadas e não tipadas;
-      - Sendo o C# uma linguagem tipada ou fortemente tipada;
+    - Sendo o C# uma linguagem tipada ou fortemente tipada;
   - Linguagens compiladas ou interpretadas;
-      - Sendo o C# uma linguagem compilada;
+    - Sendo o C# uma linguagem compilada;
   - Linguagens de alto e de baixo nível;
-      - Sendo o C# de alto nível;
+    - Sendo o C# de alto nível;
   - Compildores Vs Interpretadores;
 
 ## C#:
