@@ -176,8 +176,7 @@ em meados de 2001;
     - Porém nunca no mesmo arquivo, pela sintaxe de cada linguagem;
   - O resultado da compilação IL é sempre o mesmo;
   - O processo de conversão do IL para binário é conhecido como JIT
-    
-    ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/ccbee0a1-05e9-40d6-81d1-42a7e571a68c)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/ccbee0a1-05e9-40d6-81d1-42a7e571a68c)
  
 - ## Revisão:
   - **Definições:**
@@ -247,14 +246,12 @@ em meados de 2001;
     - Podem ser instalados juntos;
     - Podem ser utilizados no mesmo projeto;
   - Como garantir que algo que escrevemos roda em ambos?
-
-  ![intersecção](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/320387ac-0d33-41eb-b7a2-efdd524376ce)
+  - ![intersecção](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/320387ac-0d33-41eb-b7a2-efdd524376ce)
   - Como podemos ver na imagem acima o .NET Standard é a intersecção desses dois frameworks;
   - Ele não é um framework, ele é apenas um contrato;
     - Também chamado de surface API
   - Garante que tudo que escrevemos será compatível com ambos frameworks;
-
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/62278aec-9872-40a5-b0f0-2eda55892867)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/62278aec-9872-40a5-b0f0-2eda55892867)
   
   Fonte: Microsoft
   - Atualmente o Xamarim, vai ter suporte até 1° de Maio de 2024, e está sendo substituído pelo Maui
@@ -335,13 +332,11 @@ em meados de 2001;
   - É maior que o Runtime, pois vem com tudo o que precisamos
  - **Definições:** Requisitos
    - Windows:
-
-   ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/76e9941b-373b-47f8-8617-bdea0d051de6)
+   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/76e9941b-373b-47f8-8617-bdea0d051de6)
 
    Fonte: Microsoft
    - Linux:
-
-   ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3c783291-6c8b-4ad4-b680-5c74ec83e15b)
+   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3c783291-6c8b-4ad4-b680-5c74ec83e15b)
 
    Fonte: Microsoft
 
@@ -361,20 +356,16 @@ em meados de 2001;
 - ## Instalação:
   - Para instalar vá ao site da MS https://dotnet.microsoft.com/pt-br/
   - Clique em **Baixar**
- 
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/a4aab0fa-e0d4-406d-8812-221c47b2e696)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/a4aab0fa-e0d4-406d-8812-221c47b2e696)
   - Clique em **SDK do .NET x64**
-
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/74ae336d-da11-43b0-8e62-2da5ea24a8c7)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/74ae336d-da11-43b0-8e62-2da5ea24a8c7)
   - Vá em downloads e clique duas vezes para exeutar o aplicativo;
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3ff2838f-2ab0-4b43-ac5a-ab56fd1c3fa8)
-
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3ff2838f-2ab0-4b43-ac5a-ab56fd1c3fa8)
   - Clique em instalar:
-
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f77ebd05-6afc-43dc-8bbd-e18507396484)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f77ebd05-6afc-43dc-8bbd-e18507396484)
   - Não vou trabalhar com Linux e nem MAC OS, mas segue o link onde você pode escolher qual quer instalar: https://dotnet.microsoft.com/pt-br/download/dotnet/8.0
   - pelo **Powershell** po terminal é possivel saber a versão do .NET instalado pelo comando ```dotnet --version```
-  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/06970190-c1e2-4559-987a-42a4a11f7bea)
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/06970190-c1e2-4559-987a-42a4a11f7bea)
 
 - ## dotnet cli:
 - ## VS Code:
