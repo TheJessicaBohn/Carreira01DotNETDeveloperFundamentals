@@ -359,6 +359,23 @@ em meados de 2001;
 
 ## .NET
 - ## Instalação:
+  - Para instalar vá ao site da MS https://dotnet.microsoft.com/pt-br/
+  - Clique em **Baixar**
+ 
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/a4aab0fa-e0d4-406d-8812-221c47b2e696)
+  - Clique em **SDK do .NET x64**
+
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/74ae336d-da11-43b0-8e62-2da5ea24a8c7)
+  - Vá em downloads e clique duas vezes para exeutar o aplicativo;
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3ff2838f-2ab0-4b43-ac5a-ab56fd1c3fa8)
+
+  - Clique em instalar:
+
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f77ebd05-6afc-43dc-8bbd-e18507396484)
+  - Não vou trabalhar com Linux e nem MAC OS, mas segue o link onde você pode escolher qual quer instalar: https://dotnet.microsoft.com/pt-br/download/dotnet/8.0
+  - pelo **Powershell** po terminal é possivel saber a versão do .NET instalado pelo comando ```dotnet --version```
+  ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/06970190-c1e2-4559-987a-42a4a11f7bea)
+
 - ## dotnet cli:
 - ## VS Code:
 - ## Tipos de projeto:
@@ -527,3 +544,4 @@ em meados de 2001;
 
 ## Fonte:
 - ## https://balta.io/carreiras/dotnet-fundamentals
+- ## Microsoft
