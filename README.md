@@ -346,6 +346,16 @@ em meados de 2001;
    Fonte: Microsoft
 
 - ## Revisão:
+  - **Definições:**
+  - Frameworks são estruturas prontas pra economizar o nosso tempo e diminuir os riscos;
+  - .NET Framework é legado;
+  - .NET Core é legado;
+  - .NET 8 é o atual;
+  - .NET 9 é o futuro;
+  - .NET Standard é a padronização, surface API;
+  - Garante que tudo que escrevemos é compatível com ambos
+  - Opte sempre por versões LTS;
+  - Runtime executa, SDK cria;
 
 ## .NET
 - ## Instalação:
