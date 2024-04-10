@@ -367,7 +367,21 @@ em meados de 2001;
   - pelo **Powershell** po terminal é possivel saber a versão do .NET instalado pelo comando ```dotnet --version```
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/06970190-c1e2-4559-987a-42a4a11f7bea)
 
-- ## dotnet cli:
+- ## Dotnet CLI:
+  - **Definições:** CLI
+  - Sigla para Command Line Interface: Interface de linha de comando;
+    - Comandos adicionados ao nosso terminal;
+    - Geralmente os comando por linha de comando mudam pouco;
+    - Ajuda pois se nos acostumamos a algo visual e um botão muda de lugar, acaba criando uma dificuldade em se atualizar
+  - **Definições:** dotnet CLI
+  - Foi instalado ao instalarmos o SDK
+  - Definido pelo comando ```dotnet```:
+    - ```dotnet -- version```: Verifica a versão do dotnet atualmente instalado;
+    - ```dotnet --list-sdks```: Lista os SDKs instalados;
+    - ```dotnet --list runtimes```: Lista os Runtimes instalados;
+    - ```dotnet help```: Exibe ajuda e também lista os comandos disponíveis;
+ -![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3eb2d6f-ea0e-4eec-bffc-d0dac658a984)
+
 - ## VS Code:
 - ## Tipos de projeto:
 - ## Fluxo de execução:
@@ -516,12 +530,35 @@ em meados de 2001;
 ## Glossário:
 - **Alpha:** Esboço de algo feito, e está longe de ter uma versão final;
 - **Beta:** Versão de testes,mas não chega a ser uma versão finalde algo que já está funcionando, e já temos uma ideia de como vai ser no final;
+- ```clear```: Limpar terminal;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
+- ```dotnet add```: Adicionar um pacote ou uma referência a um projeto do .NET.
+- ```dotnet build```: Criar um projeto do .NET.
+- ```dotnet build-server```: Interagir com servidores iniciados por um build.
+- ```dotnet clean```: Limpar as saídas do build de um projeto do .NET.
+- ```dotnet format```: Aplicar preferências de estilo a um projeto ou solução.
+- ```dotnet help```: Mostrar a ajuda da linha de comando.
+- ```dotnet list```: Listar as referências de um projeto do .NET.
+- ```dotnet msbuild```: Executar comandos do MSBuild (Microsoft Build Engine).
+- ```dotnet new```: Criar um novo projeto ou arquivo do .NET.
+- ```dotnet nuget```: Fornece comandos adicionais do NuGet.
+- ```dotnet pack```: Criar um pacote do NuGet.
+- ```dotnet publish```: Publicar um projeto do .NET para implantação.
+- ```dotnet remove```: Remover um pacote ou uma referência de um projeto do .NET.
+- ```dotnet restore```: Restaurar as dependências especificadas em um projeto do .NET.
+- ```dotnet run```: Criar e executar uma saída de projeto do .NET.
+- ```dotnet sdk```: Gerencie a instalação do SDK do .NET.
+- ```dotnet sln```: Modificar os arquivos da solução do Visual Studio.
+- ```dotnet store```: Armazenar os assemblies especificados no repositório de pacotes do runtime.
+- ```dotnet test```: Executar testes de unidade usando o executor de testes especificado em um projeto do .NET.
+- ```dotnet tool```: Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
+- ```dotnet vstest```: Executar comandos do VSTest (Microsoft Test Engine).
+- ```dotnet workload```: Gerenciar as cargas de trabalho opcionais.
 - **Final:** Versão final da aplicação;
 - **IL:** Sigla para Intermediate Language;
 - **JIT:** Sigla para Just In Time;
-- **Legado:** Sofwares mais de idade
+- **Legado:** Sofwares mais de idade;
 - **Major:** Sempre o primeiro número de uma release, a release maior. Ex.: versão 2 para versão 3, podendo ser até um produto novo, e não tem garantia nenhuma da versão anterior para nova;
 - **Minor:** Sempre o segundo número, ex.: versão 2.1 para versão 2.2, significa que as mudanças foram pequenas e mais leves, elas podem quebrar, mas não é uma mudança completa, não trocou um pacote ou um produto;
 - **MS:** MicroSoft;
