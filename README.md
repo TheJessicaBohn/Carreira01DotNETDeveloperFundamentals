@@ -188,7 +188,6 @@ em meados de 2001;
   - IL é a linguagem intermediaria na qual todas as linguagens da Microsoft são compiladas;
 
 ## Frameworks:
-
 - ## Frameworks:
   - **Definições:**
   - Framework é uma estrutura, um alicerce
@@ -383,6 +382,41 @@ em meados de 2001;
  -![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3eb2d6f-ea0e-4eec-bffc-d0dac658a984)
 
 - ## VS Code:
+  - **Definições:** Visual Studio Code 
+  - É um editor de código;
+    - Existe outras alterntivas como ATOM, Sublime, Vim, Brackets;
+    - Porém na minha opinião e na opinião do instrutor do curso, balta.io, esse é o melhor editor para se trabalhar, pois:
+      - Melhor suporte a C#;
+      - Feito pela MS;
+      - Tem atualizações frequentes;
+      - Tem possibilidade de criarmos os nossos próprios pacotes;
+      - Tem temas personalizados;
+      - etc.
+  - Instalação:
+    - O passo a passo é como o da instalação de qualquer programa no windows: baixar, abrir pasta de download, e clicar duas vezes para instalar, como no passo a passo da instalação do SDK
+    - Você pode baixa-lo aqui: https://code.visualstudio.com/
+    -  É importante lembrar que o simbolo do VS Code é azul e falta uma aste do lado direito, lembra um peixinho, pois o do Visual Studio Community é roxo e seu simbolo de lemniscata é completo
+      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/39784f6b-116d-4629-a319-cbbd427d8e83), VS Code;
+      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/2f7e3bef-0441-4308-8245-88addcc9809c), Visual Studio;
+      - Nas configurações de instalação pode deixar todas as opções seguintes marcadas:
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/9731b15c-d2dc-438e-82b8-e555630bf86d)
+      - Se desejar criar um atalho na sua Área de trabalho Windows pode marcar a primeira opção;
+      - A segunda opção adiciona um botão no Windows Explore para abrir o seu arquivo diretamente no VS Code no menu de contexto;
+      - A terceira opção adiciona um botão no Windows Explore para abrir o seu arquivo diretamente no VS Code no menu de diretório;
+      - A quarta, vai registrar o Code como arquivos conhecidos, então tudo que for .cs (C#) o Windows vai abrir diretamente com o VS Code;
+      - E a quinta e última ele permite abrir o Code a partir do terminal e outra coisa bem importante para o funcionamento do aplicativo, pois adiciona o VS Code à variável PATH das Variáveis de Ambiente, se não depois você precisará fazer esse processo "no braço";
+  - Extensões:
+    - ```Ctrl + Shift + X``` ou ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/8d59a99b-0053-4d8c-b5ef-85b2cd97b9f2);
+    - Aberto ele possui uma lupinha para você pesquisar o que deseja, além de já mostrar as suas extenções instaldas:
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/27f7f4b7-9629-43d3-99d0-f64b99a7b69d)
+    - Para o curso será necessário apenas as extensão: **C#** e a **C# Dev Kit**, é importante ver que ela tem o logo oficial da MS;
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3fe57c8-f8e7-45ab-bdb3-6368c818574b)
+    - É importante tomar cuidado com extensões [DEPRECATED], pois elas não possuem suporte mais;
+    - 7:30
+  - **Definições:** Visual Studio Community
+  - É uma IDE;
+    - Uma IDE, é diferente de um editor de código, pois ela é algo muito maior e possui muito mais recursos;
+    - Porém é mais pesado e necessita de uma maquina melhor para a sua utilização;
 - ## Tipos de projeto:
 - ## Fluxo de execução:
 - ## Variáveis de ambiente;
@@ -570,6 +604,7 @@ em meados de 2001;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 
-## Fonte:
+## Fontes: 
+Lembrando que todas os links já estão no corpo de texto em caso de download, e todas as imagens são próprias minhas feitas em paint ou Canva, ou então são retiradas das documentações do sites da Microsoft, o conteúdo pertence ao link abaixo do curso do [balta.io](https://balta.io/), com algumas modificações e considerações minhas. A finalidade desse repositório é apenas para estudo pessoal e ajudar qualquer pessoa que esteja acompanhando o curso, mas com o resumo dos slides em .md, além de estar atualizado em .NET 8. Esse repositório não visa qualquer tipo de fim lucrativo. 
 - ## https://balta.io/carreiras/dotnet-fundamentals
 - ## Microsoft
