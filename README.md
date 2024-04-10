@@ -330,7 +330,7 @@ em meados de 2001;
   - Já vem com o Runtime integrado;
   - Não devemos utilizar em produção, pois em produção só é necessário o Runtime;
   - É maior que o Runtime, pois vem com tudo o que precisamos
- - **Definições:** Requisitos
+  - **Definições:** Requisitos
    - Windows:
    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/76e9941b-373b-47f8-8617-bdea0d051de6)
 
