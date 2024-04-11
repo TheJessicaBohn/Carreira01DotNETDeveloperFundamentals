@@ -412,11 +412,16 @@ em meados de 2001;
     - Para o curso será necessário apenas as extensão: **C#** e a **C# Dev Kit**, é importante ver que ela tem o logo oficial da MS;
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3fe57c8-f8e7-45ab-bdb3-6368c818574b)
     - É importante tomar cuidado com extensões [DEPRECATED], pois elas não possuem suporte mais;
-    - 7:30
+    - Uma extensão muito legal é a **vscode-icons** ela é muito bonitinha e tem alguns icones lebem legais;
+    -![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/09621686-38cb-46a4-9e4b-a2545e7cf9b5)
+    - Ao dar ```Ctrs + , ```, é possível acessar ao **settings**, pode se pode mexer tanto nas configurações visuais, como fonte, tamanho da fonte, quento em **open settings** ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f225f20b-e14b-4d12-9625-a335edd31906) onde é possível configurar o formato do JSON ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/d1c950c3-5edc-42be-addc-ae0e5e406a14), além disso ele possui um intellisense, o que pode te ajudar a conhecer outras opções;
+    - O comando ```Ctrl + Shift + P``` você tem acesso aos comandos do visual studio
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/29067e13-5af5-4717-9281-d0d12d170cad)
   - **Definições:** Visual Studio Community
   - É uma IDE;
     - Uma IDE, é diferente de um editor de código, pois ela é algo muito maior e possui muito mais recursos;
     - Porém é mais pesado e necessita de uma maquina melhor para a sua utilização;
+
 - ## Tipos de projeto:
 - ## Fluxo de execução:
 - ## Variáveis de ambiente;
