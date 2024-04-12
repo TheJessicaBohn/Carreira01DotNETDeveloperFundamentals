@@ -423,6 +423,40 @@ em meados de 2001;
     - Porém é mais pesado e necessita de uma maquina melhor para a sua utilização;
 
 - ## Tipos de projeto:
+  - **Definições:** Tipos de Projeto
+  - Como vimos em capítulos anteriores o .NET suporta diversos tipos de projetos, como APIs, Machine Learn
+  - Então para cada aplicação que vamos criar, precisamos especificar o tipo de projeto;
+  - Ex.: Class Library(ele é apenas uma biblioteca):
+    - O resultado final é uma DLL;
+    - Não possui interface;
+    - Não possui resultado visível
+    - O resultado final é uma cadeia de caracteres, uma string;
+  - Ex.: Console Application:
+    - Famosa telinha preta do DOS;
+    - É um .exe;
+    - O resultado final é uma aplicação que roda no terminal;
+    - Pode receber dados, esperar input do usuário;
+    - Possui reultado visível;
+  - Projeto Web;
+    - ASP.NET Web;
+    - ASP.NET MVC;
+    - ASP.NET WebAPI;
+  - Projetos Testes;
+    - Microsoft Tests;
+  - **Definições:** Criando um novo projeto
+  - dotnetcli:
+    - ```dotnet new console``` => Novo Console Application;
+    - ```dotnet new classlib``` => Nova Class Library;
+    - ```dotnet new web``` => Novo projeto ASP.NET;
+    - ```dotnet new mvc``` => Novo projeto ASP.NET;
+    - ```dotnet new webapi``` => Novo projeto ASP.NET;
+    - ```dotnet new msteste``` => Novo projeto Microsoft Test;
+    - Lembrando que como nesse repositório, utilizamos o .NET 8 os projetos ASP.NET
+  - Criar um novo projeto é o mesmo que gerar os arquivos iniciais de uma aplicação
+  - Vai sempre gerar os arquivos na pasta atual
+  - Para especificar uma pasta, podemos utilizar o ```-o```
+  - ```dotnet new console -o MeuApp```;
+  - Vai criar uma nova pasta chamada MeuApp com os arquivos dentro
 - ## Fluxo de execução:
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
