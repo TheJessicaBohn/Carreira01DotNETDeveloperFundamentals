@@ -474,6 +474,10 @@ em meados de 2001;
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c0534e84-b36a-4c0c-a9c4-41a589e9d8be)
 
 - ## Fluxo de execução:
+  - **Definições:**
+  - Quando criamos o nosso projeto, assim como foi motrado no capítulo acima, o .NET executa alguns comandos adicionais, como por exemplo o ```dotnet restore ```, que busca todos os pacotes necesssários que a aplicação precisa para funcionar e faz a instalação deles.
+  - Para você saber se está em um projeto .NET sempre tem que ter uma extenção **nomeProjeto.csproj**
+  - Caso você tente executar um ```dotnet restore ```, dentro de uma pasta que não tenha o **.csproj**, ele vai dar um erro;
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
 - ## Debug:
@@ -624,9 +628,9 @@ em meados de 2001;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - ```dotnet add```: Adicionar um pacote ou uma referência a um projeto do .NET.
-- ```dotnet build```: Criar um projeto do .NET.
+- ```dotnet build```: Compila a aplicação um projeto do .NET.
 - ```dotnet build-server```: Interagir com servidores iniciados por um build.
-- ```dotnet clean```: Limpar as saídas do build de um projeto do .NET.
+- ```dotnet clean```: Limpar as saídas do build(compilações) de um projeto do .NET.
 - ```dotnet format```: Aplicar preferências de estilo a um projeto ou solução.
 - ```dotnet help```: Mostrar a ajuda da linha de comando.
 - ```dotnet list```: Listar as referências de um projeto do .NET.
@@ -637,7 +641,7 @@ em meados de 2001;
 - ```dotnet publish```: Publicar um projeto do .NET para implantação.
 - ```dotnet remove```: Remover um pacote ou uma referência de um projeto do .NET.
 - ```dotnet restore```: Restaurar as dependências especificadas em um projeto do .NET.
-- ```dotnet run```: Criar e executar uma saída de projeto do .NET.
+- ```dotnet run```: Ccompila e executar a aplicação .NET.
 - ```dotnet sdk```: Gerencie a instalação do SDK do .NET.
 - ```dotnet sln```: Modificar os arquivos da solução do Visual Studio.
 - ```dotnet store```: Armazenar os assemblies especificados no repositório de pacotes do runtime.
