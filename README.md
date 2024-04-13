@@ -478,6 +478,7 @@ em meados de 2001;
   - Quando criamos o nosso projeto, assim como foi motrado no capítulo acima, o .NET executa alguns comandos adicionais, como por exemplo o ```dotnet restore ```, que busca todos os pacotes necesssários que a aplicação precisa para funcionar e faz a instalação deles.
   - Para você saber se está em um projeto .NET sempre tem que ter uma extenção **nomeProjeto.csproj**
   - Caso você tente executar um ```dotnet restore ```, dentro de uma pasta que não tenha o **.csproj**, ele vai dar um erro;
+  -
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
 - ## Debug:
