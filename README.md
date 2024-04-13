@@ -485,8 +485,6 @@ em meados de 2001;
   - ```dotnet run```, um dos mais usados, é quem executa a nossa aplicação de fato.
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/90cdb778-b1c2-4fd0-9c4e-6844c7b2d514)
 
-
-
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
 - ## Debug:
