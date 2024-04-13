@@ -412,8 +412,8 @@ em meados de 2001;
     - Para o curso será necessário apenas as extensão: **C#** e a **C# Dev Kit**, é importante ver que ela tem o logo oficial da MS;
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3fe57c8-f8e7-45ab-bdb3-6368c818574b)
     - É importante tomar cuidado com extensões [DEPRECATED], pois elas não possuem suporte mais;
-    - Uma extensão muito legal é a **vscode-icons** ela é muito bonitinha e tem alguns icones lebem legais;
-    -![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/09621686-38cb-46a4-9e4b-a2545e7cf9b5)
+    - Uma extensão muito legal é a **vscode-icons** ela é muito bonitinha e tem alguns icones bem legais;
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/09621686-38cb-46a4-9e4b-a2545e7cf9b5)
     - Ao dar ```Ctrs + , ```, é possível acessar ao **settings**, pode se pode mexer tanto nas configurações visuais, como fonte, tamanho da fonte, quento em **open settings** ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f225f20b-e14b-4d12-9625-a335edd31906) onde é possível configurar o formato do JSON ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/d1c950c3-5edc-42be-addc-ae0e5e406a14), além disso ele possui um intellisense, o que pode te ajudar a conhecer outras opções;
     - O comando ```Ctrl + Shift + P``` você tem acesso aos comandos do visual studio
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/29067e13-5af5-4717-9281-d0d12d170cad)
@@ -447,17 +447,38 @@ em meados de 2001;
   - dotnetcli:
     - ```dotnet new console``` => Novo Console Application;
     - ```dotnet new classlib``` => Nova Class Library;
-    - ```dotnet new web``` => Novo projeto ASP.NET;
-    - ```dotnet new mvc``` => Novo projeto ASP.NET;
-    - ```dotnet new webapi``` => Novo projeto ASP.NET;
+    - ```dotnet new web``` => Novo projeto ASP.NET Core;
+    - ```dotnet new mvc``` => Novo projeto ASP.NET Core;
+    - ```dotnet new webapi``` => Novo projeto ASP.NET Core;
     - ```dotnet new msteste``` => Novo projeto Microsoft Test;
-    - Lembrando que como nesse repositório, utilizamos o .NET 8 os projetos ASP.NET
-  - Criar um novo projeto é o mesmo que gerar os arquivos iniciais de uma aplicação
-  - Vai sempre gerar os arquivos na pasta atual
+    - Lembrando que como nesse repositório, utilizamos o .NET 8 os projetos ASP.NET Core
+  - Criar um novo projeto é o mesmo que gerar os arquivos iniciais de uma aplicação, então não precisamos criar tudo do zero;
+  - Vai sempre gerar os arquivos na pasta atual;
   - Para especificar uma pasta, podemos utilizar o ```-o```
   - ```dotnet new console -o MeuApp```;
   - Vai criar uma nova pasta chamada MeuApp com os arquivos dentro
+  - Uma ferramenta que muito legal que que gosto de usar é o [GitHub Desktop](https://desktop.github.com/), clique no nome e baixe o aplicativo, caso você tenha criado um repositório no GitHub para estudar como eu, lá ele tem uma opção de clonar, para que ele possa ser copiado e para sua maquina e editado por lá também;
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/3bc8d425-cda6-444f-aea8-fe19ca8e0972)
+  - Lembrando que o os programas no Windows são Plug and Play, ou seja, next, next, next...
+  - Após clonado vamos abrir o aplicativo baixado da loja da MS, Windows Terminal e por lá abrir a sua pastinha clonada do GitHub, com o comando ```cd nomeOuCaminhoDaPasta```
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/26d75dce-47ef-4cae-97d6-8da504cfe9c6)
+  - Como podem ver na primeira linha ele só vai até a primeira seta no "jessi", e depois do comando que termina na segunda seta, na segunda linha ele já está dentro da minha pasta clonada;
+  - Dentro dessa pasta vamos criar uma novo projetinho pelo comando ```mkdir NomeDoProjeto```, no meu caso vou chamar de "ProjetoTeste";
+  - Os nomes das apicações em .NET tendem a começar sempre com letras maiúsculas, no futuro isso vai influenciar os chamados NameSpaces, além do uso do **Kebab Case**(espetinho de crurrasco), que significa que ao invés de espaço ou caracter especial para separar, utilizamos uma nova letra maiúscula;
+  - Para entrar então na nossa pastinha, vamos lembrar do comando ```cd nomeOuCaminhoDaPasta```;
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/399a2723-8d49-4470-afd4-cb4507778e56)
+  - Lembre-se de usar uma ou duas letras e depois usar o TAB, para completar o comando;
+  - Dentro da pasta **ProjetoTeste**, vamos dar o comando ```dotnet new console```, e criar a nossa aplicação:
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/455df7d3-f7c8-4de7-9fbb-f279669b903b)
+  - Para ver o que tem dentro da pasta, podemos usar o comando ```ls```:
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c0534e84-b36a-4c0c-a9c4-41a589e9d8be)
+
 - ## Fluxo de execução:
+  - **Definições:**
+  - Quando criamos o nosso projeto, assim como foi motrado no capítulo acima, o .NET executa alguns comandos adicionais, como por exemplo o ```dotnet restore ```, que busca todos os pacotes necesssários que a aplicação precisa para funcionar e faz a instalação deles.
+  - Para você saber se está em um projeto .NET sempre tem que ter uma extenção **nomeProjeto.csproj**
+  - Caso você tente executar um ```dotnet restore ```, dentro de uma pasta que não tenha o **.csproj**, ele vai dar um erro;
+  -
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
 - ## Debug:
@@ -603,13 +624,14 @@ em meados de 2001;
 ## Glossário:
 - **Alpha:** Esboço de algo feito, e está longe de ter uma versão final;
 - **Beta:** Versão de testes,mas não chega a ser uma versão finalde algo que já está funcionando, e já temos uma ideia de como vai ser no final;
-- ```clear```: Limpar terminal;
+- ```cd ..```: Voltar uma pasta acima;
+- ```clear``` ou ```cls``` : Limpar terminal;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - ```dotnet add```: Adicionar um pacote ou uma referência a um projeto do .NET.
-- ```dotnet build```: Criar um projeto do .NET.
+- ```dotnet build```: Compila a aplicação um projeto do .NET.
 - ```dotnet build-server```: Interagir com servidores iniciados por um build.
-- ```dotnet clean```: Limpar as saídas do build de um projeto do .NET.
+- ```dotnet clean```: Limpar as saídas do build(compilações) de um projeto do .NET.
 - ```dotnet format```: Aplicar preferências de estilo a um projeto ou solução.
 - ```dotnet help```: Mostrar a ajuda da linha de comando.
 - ```dotnet list```: Listar as referências de um projeto do .NET.
@@ -620,7 +642,7 @@ em meados de 2001;
 - ```dotnet publish```: Publicar um projeto do .NET para implantação.
 - ```dotnet remove```: Remover um pacote ou uma referência de um projeto do .NET.
 - ```dotnet restore```: Restaurar as dependências especificadas em um projeto do .NET.
-- ```dotnet run```: Criar e executar uma saída de projeto do .NET.
+- ```dotnet run```: Ccompila e executar a aplicação .NET.
 - ```dotnet sdk```: Gerencie a instalação do SDK do .NET.
 - ```dotnet sln```: Modificar os arquivos da solução do Visual Studio.
 - ```dotnet store```: Armazenar os assemblies especificados no repositório de pacotes do runtime.
