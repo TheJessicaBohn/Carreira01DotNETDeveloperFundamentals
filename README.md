@@ -478,6 +478,15 @@ em meados de 2001;
   - Quando criamos o nosso projeto, assim como foi motrado no capítulo acima, o .NET executa alguns comandos adicionais, como por exemplo o ```dotnet restore ```, que busca todos os pacotes necesssários que a aplicação precisa para funcionar e faz a instalação deles.
   - Para você saber se está em um projeto .NET sempre tem que ter uma extenção **nomeProjeto.csproj**
   - Caso você tente executar um ```dotnet restore ```, dentro de uma pasta que não tenha o **.csproj**, ele vai dar um erro;
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/4f3ebe0a-f2a8-4b3d-8876-fe2e01efd20d)
+  - ```dotnet build ``` compila a nossa aplicação:
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/75b61471-aed3-45fe-8550-71634fa02d71)
+  - ```dotnet clean``` limpa todos os arquivos de cache da nossa aplicação, os SO´s Windows, MAC e Linux, "cacheiam" muita coisa, o mesmo pacote que você use para uma aplicação A, talvez você use pra uma aplicação B, então o SOs já baixam deixando o cache, então você não necessita baixar novamente aquele pacote. Então esse comando, limpa esses itens. De vez em quando pode ficar sujeira nesses chaches até por compilações erradas e a compilação acaba ficando "suja". A recomandação do Balta é que sempre antes de executar um ```dotnet build``` seria interessante executar um ```dotnet clean```, para garantir que não vai ficar sujeira na memória;
+  - ```dotnet run```, um dos mais usados, é quem executa a nossa aplicação de fato.
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/90cdb778-b1c2-4fd0-9c4e-6844c7b2d514)
+
+
+
 - ## Variáveis de ambiente;
 - ## Estrutura do App:
 - ## Debug:
@@ -649,6 +658,7 @@ em meados de 2001;
 - ```dotnet tool```: Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
 - ```dotnet vstest```: Executar comandos do VSTest (Microsoft Test Engine).
 - ```dotnet workload```: Gerenciar as cargas de trabalho opcionais.
+- **Error(s):** Erro que não deixa a aplicação buildar;
 - **Final:** Versão final da aplicação;
 - **IL:** Sigla para Intermediate Language;
 - **JIT:** Sigla para Just In Time;
@@ -663,6 +673,7 @@ em meados de 2001;
 - **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
+- **Warnings:** alertas para melhoria de código;
 
 ## Fontes: 
 Lembrando que todas os links já estão no corpo de texto em caso de download, e todas as imagens são próprias minhas feitas em paint ou Canva, ou então são retiradas das documentações do sites da Microsoft, o conteúdo pertence ao link abaixo do curso do [balta.io](https://balta.io/), com algumas modificações e considerações minhas. A finalidade desse repositório é apenas para estudo pessoal e ajudar qualquer pessoa que esteja acompanhando o curso, mas com o resumo dos slides em .md, além de estar atualizado em .NET 8. Esse repositório não visa qualquer tipo de fim lucrativo. 
