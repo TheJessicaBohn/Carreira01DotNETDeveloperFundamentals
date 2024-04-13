@@ -486,6 +486,22 @@ em meados de 2001;
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/90cdb778-b1c2-4fd0-9c4e-6844c7b2d514)
 
 - ## Variáveis de ambiente;
+  - **Definições:**
+  - É comum existir mais de ambiente para as nossas aplicações:
+    - Desenvolvimento (nossa maquina, pois é onde estamos desenvolvendo de fato a nossa aplicação) ;
+    - Homologação (ambiente de testes, fora da sua maquina, porém o usuário final não tem acesso);
+    - Produção (onde o cliente tem acesso à aplicação);
+  - Cada ambiente possui suas configurações:
+    - Chaves de acesso externo (cada ambiente tem seu "login");
+    - Conexões com banco de dados (cada ambiente tem seu próprio banco de dados);
+  - Desta forma, podemos dizer ao .NET qual ambiente estamos utilizando:
+    - ```dotnet run --environment=$SEU_AMBIENTE```
+      - ```dotnet run --environment=development```
+      - ```dotnet run --environment=production```
+  - O comando **run** não executa depuração (Debug)
+    - assim a aplicação não vai parar nos Break Points;
+  - O curso não vai abordar esse assunto;
+
 - ## Estrutura do App:
 - ## Debug:
 - ## Revisão:
