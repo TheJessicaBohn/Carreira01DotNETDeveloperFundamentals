@@ -503,6 +503,39 @@ em meados de 2001;
   - O curso não vai abordar esse assunto;
 
 - ## Estrutura do App:
+  - **Definições:** Estrutura do console
+  - Arquivo.csproj:
+    - Formato XML
+    - Definições do projeto
+    - Presente em todo projeto .NET
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/26324290-292b-417f-87cf-60543d4210b4)
+    -     ```<Project Sdk="Microsoft.NET.Sdk">
+
+          <PropertyGroup>
+          <OutputType>Exe</OutputType>
+          <TargetFramework>net8.0</TargetFramework>
+          <ImplicitUsings>enable</ImplicitUsings>
+          <Nullable>enable</Nullable>
+          </PropertyGroup>
+
+            </Project>```
+    - 1º demonstra que ele está usando o .NET SDK, que vimos a instalação anteriormente;]
+    - 2º encontramos o **PropertyGroup**, que apenas define um grupo;
+    - 3º cada tipo de projeto tem um output. Nesse caso foi criado um console, e o output dele é do tipo **.exe**
+    - 4º TargetFramework, se refere a qual framework essa aplicação está se baseando, no caso estamos utilizando o .NET8
+  - Program.cs:
+    - Arquivo principal (c#)
+    - Porta de entrada
+    - Será o peimeiro a ser executado
+    - Toda aplicação .net que executa sem ser o class library, ele tem um .cs, e ele busca esse arquivo que sempre vai ser o primeiro a ser executado, então não é legal renomear esse "cara",
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/826af44e-410e-48b8-8b59-fc1cc376dd77)
+    - Nessa imagem podemos ver que o program.cs da versão do .NET 8 está bem mais enxuta que as suas versões anteriores;
+  - Ao abrir o projeto **ProjetoTeste** podemos ver que ele gerou a pasta **obj**, e os arquivos **Program.cs**, e **ProjetoTeste.csproj**, a pasta **bin** foi gerada ao executar um ```dotnet build```;
+  - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3d1d997-da0f-41ed-af0c-05531dee08a3)
+    - Então o resultade de uma compilação fica dentro de uma pasta bin(binary).
+    - O .csproj, a sua nomenclatura sempre segue o nome que você deu ao criar o projeto;
+    - **cs:** C#, e **proj:** de projeto;
+    - 
 - ## Debug:
 - ## Revisão:
 
@@ -688,6 +721,7 @@ em meados de 2001;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 - **Warnings:** alertas para melhoria de código;
+- **XML:** Extensible Markup Language, uma linguagem de marcação que já foi muito usuada durante um tempo para tráfego de informações entre um sistema e outro, mas atualmente não tão usado assim, porém o .NET ainda utiliza por conta da retrocompatibilidade com sistemas anteriores;
 
 ## Fontes: 
 Lembrando que todas os links já estão no corpo de texto em caso de download, e todas as imagens são próprias minhas feitas em paint ou Canva, ou então são retiradas das documentações do sites da Microsoft, o conteúdo pertence ao link abaixo do curso do [balta.io](https://balta.io/), com algumas modificações e considerações minhas. A finalidade desse repositório é apenas para estudo pessoal e ajudar qualquer pessoa que esteja acompanhando o curso, mas com o resumo dos slides em .md, além de estar atualizado em .NET 8. Esse repositório não visa qualquer tipo de fim lucrativo. 
