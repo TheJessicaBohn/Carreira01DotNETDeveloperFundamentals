@@ -539,6 +539,12 @@ em meados de 2001;
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/92367231-66ab-4215-b450-62a8bc6d01fc)
 
 - ## Debug:
+  - **Definições:** Depurando
+  - É possível executar a aplicação de dois modos:
+    - Modo Release: que a gente executa a aplicação solta sem break points diretamente com ```dotnet run```, como se fossemos um cliente de fato, rodando a aplicação
+    - Modo Debug: executar o programa com os chamados breaking points
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/9dba005b-9589-4939-8d09-3e1899046b5a)
+
 - ## Revisão:
 
 ## Linguegem de Programação - com C#:
@@ -681,10 +687,13 @@ em meados de 2001;
 ## Glossário:
 - **Alpha:** Esboço de algo feito, e está longe de ter uma versão final;
 - **Beta:** Versão de testes,mas não chega a ser uma versão finalde algo que já está funcionando, e já temos uma ideia de como vai ser no final;
+- **Bug:** Termo que vem históricamente dos antigos computadores que funcionavam com válvulas que eram como lâmpadas e atraiam os insetos, e bug é inseto em inglês;
 - ```cd ..```: Voltar uma pasta acima;
 - ```clear``` ou ```cls``` : Limpar terminal;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
+- ```Ctrl + C ```: Para de executar a aplicação;
+- **Debug:** "Caçar os bugs" da nossa aplicação;
 - ```dotnet add```: Adicionar um pacote ou uma referência a um projeto do .NET.
 - ```dotnet build```: Compila a aplicação um projeto do .NET.
 - ```dotnet build-server```: Interagir com servidores iniciados por um build.
@@ -707,6 +716,7 @@ em meados de 2001;
 - ```dotnet tool```: Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
 - ```dotnet vstest```: Executar comandos do VSTest (Microsoft Test Engine).
 - ```dotnet workload```: Gerenciar as cargas de trabalho opcionais.
+- ```exit```: Fecha o terminal
 - **Error(s):** Erro que não deixa a aplicação buildar;
 - **Final:** Versão final da aplicação;
 - **IL:** Sigla para Intermediate Language;
@@ -722,6 +732,7 @@ em meados de 2001;
 - **SO:** Sistema Operacional;
 - **Tempo de Execução:** É o que acontece durante a execução  do código pelo computador ou interpretador.
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
+- ```Ctrl + ' ```: Toggle o terminal do VS Code;
 - **Warnings:** alertas para melhoria de código;
 - **XML:** Extensible Markup Language, uma linguagem de marcação que já foi muito usuada durante um tempo para tráfego de informações entre um sistema e outro, mas atualmente não tão usado assim, porém o .NET ainda utiliza por conta da retrocompatibilidade com sistemas anteriores;
 
