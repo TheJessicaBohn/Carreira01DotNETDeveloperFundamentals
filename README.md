@@ -544,14 +544,32 @@ em meados de 2001;
     - Modo Release: que a gente executa a aplicação solta sem break points diretamente com ```dotnet run```, como se fossemos um cliente de fato, rodando a aplicação
     - Modo Debug: executar o programa com os chamados breaking points
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/9dba005b-9589-4939-8d09-3e1899046b5a)
-    - Se assim como o meu seu projeto não criar a pastinha .vscode, siga o seguinte passo a passo;
-      - ```Ctrl + Shift + P ``` e digite como na imagen
-      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/086e5ae4-bf4b-48f0-a44a-603a310a6740)
-      - clique em cima e verifique se ele criou a pastinha **.vscode**;
-      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/545c7f76-2b45-4930-b5ed-84b49cd1b0a7)
     - Em **Settings** ```Ctrl + , ``` digite na pesquisa ```format on save```:
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/99eda34a-6eaf-4b2d-98fc-3fd48d18c333)
     - Essa opção formata seu arquivo já na hora de salvar, ele já deixa identado;
+    - **Debugando:** vá no ícone de debug ou ```Ctrl + Shift + D ```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/71b453f7-de04-4d3c-91cd-ead9e71ad287)
+    -  Nesse caso vamos ter alguns passos a mais já que que a minha pasta não gerou automaticamente então clique no link **create a launch.json file**
+    -  Se assim como o meu seu projeto não criar a pastinha .vscode, siga o seguinte passo a passo;
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/9cff0bb5-62b6-47f5-8e20-92a6d625a932)
+    - Selecione a opção **C#**
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/d53659b2-9366-40e4-8503-10cf22c230c9)
+    - E ele vai criar esse arquivo pra você dentro da pasta **.vscode**
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/4130f30e-1ece-473c-97fb-ce88851ec7a6)
+    - Porém será necessário adicionar as configurações como mostra a imagem acima
+    - Ao dar o ```Ctrl + , ``` ele já vai estar assim:
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/cd0f88ae-6bb9-48d9-a192-c66e06f37cf1)
+    - Coloque os break points onde você deseja depurar, desde que seja um .cs
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/8981f4b1-6315-4543-b0ad-e01bd33618b1)
+    - Clique na setinha verde ou ```F5```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f48eadaf-486d-4639-b31c-4c123feec11f)
+    - Ao funcionar o debug ele vai mostrar esses novos itens na tela, como o console de debug, a informação dentro das variáveis e o menu de break points, onde é possivel ir para os proximos pontos selecionados do código;
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/57f785fb-c4fb-48e0-a663-6544042d3666)
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/6fece475-c787-46d0-834b-6ede6cf956cf):
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/b29ff752-c43f-4a10-aaa5-f0e5ff278543):
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/13dbd9e3-54fb-40c9-b4c5-bd22bc32ac2c):
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/823eca9b-8fb0-4068-aee0-1658ff03f593):
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/e184edb8-5b47-47d5-a93d-2e86be2c5d9c):
 
 - ## Revisão:
 
