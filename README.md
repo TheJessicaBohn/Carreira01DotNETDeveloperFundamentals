@@ -535,7 +535,9 @@ em meados de 2001;
     - Então o resultade de uma compilação fica dentro de uma pasta bin(binary).
     - O .csproj, a sua nomenclatura sempre segue o nome que você deu ao criar o projeto;
     - **cs:** C#, e **proj:** de projeto;
-    - 
+    - A pasta **obj**, é usada para tempo de debug da nossa aplicação
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/92367231-66ab-4215-b450-62a8bc6d01fc)
+
 - ## Debug:
 - ## Revisão:
 
