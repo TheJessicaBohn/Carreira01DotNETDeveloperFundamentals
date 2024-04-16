@@ -544,6 +544,14 @@ em meados de 2001;
     - Modo Release: que a gente executa a aplicação solta sem break points diretamente com ```dotnet run```, como se fossemos um cliente de fato, rodando a aplicação
     - Modo Debug: executar o programa com os chamados breaking points
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/9dba005b-9589-4939-8d09-3e1899046b5a)
+    - Se assim como o meu seu projeto não criar a pastinha .vscode, siga o seguinte passo a passo;
+      - ```Ctrl + Shift + P ``` e digite como na imagen
+      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/086e5ae4-bf4b-48f0-a44a-603a310a6740)
+      - clique em cima e verifique se ele criou a pastinha **.vscode**;
+      - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/545c7f76-2b45-4930-b5ed-84b49cd1b0a7)
+    - Em **Settings** ```Ctrl + , ``` digite na pesquisa ```format on save```:
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/99eda34a-6eaf-4b2d-98fc-3fd48d18c333)
+    - Essa opção formata seu arquivo já na hora de salvar, ele já deixa identado;
 
 - ## Revisão:
 
@@ -693,6 +701,7 @@ em meados de 2001;
 - **CLR:** É a sigla para Common Language Runtime ou gerenciador de linguagem comum;
 - **Compilador:** Agente que executa a compilação, que é a transformação do texto que escrevemos para binário(0 e 1). Lembrando que cada linguagem tem o seu próprio compilador. Um exemplo que eu gosto muito de usar para quem é bem leigo é que o programa escrito é como se fosse uma musica na partitura, e nós ao tocarmos somos os "compiladores".
 - ```Ctrl + C ```: Para de executar a aplicação;
+- ```Ctrl + S ```: Salvar as modificações no arquivo;
 - **Debug:** "Caçar os bugs" da nossa aplicação;
 - ```dotnet add```: Adicionar um pacote ou uma referência a um projeto do .NET.
 - ```dotnet build```: Compila a aplicação um projeto do .NET.
