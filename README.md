@@ -535,7 +535,7 @@ em meados de 2001;
     - Então o resultade de uma compilação fica dentro de uma pasta bin(binary).
     - O .csproj, a sua nomenclatura sempre segue o nome que você deu ao criar o projeto;
     - **cs:** C#, e **proj:** de projeto;
-    - A pasta **obj**, é usada para tempo de debug da nossa aplicação
+    - A pasta **obj**, é usada para tempo de  da nossa aplicação
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/92367231-66ab-4215-b450-62a8bc6d01fc)
 
 - ## Debug:
@@ -564,12 +564,13 @@ em meados de 2001;
     - Clique na setinha verde ou ```F5```
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f48eadaf-486d-4639-b31c-4c123feec11f)
     - Ao funcionar o debug ele vai mostrar esses novos itens na tela, como o console de debug, a informação dentro das variáveis e o menu de break points, onde é possivel ir para os proximos pontos selecionados do código;
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/57f785fb-c4fb-48e0-a663-6544042d3666)
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/6fece475-c787-46d0-834b-6ede6cf956cf):
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/b29ff752-c43f-4a10-aaa5-f0e5ff278543):
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/13dbd9e3-54fb-40c9-b4c5-bd22bc32ac2c):
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/823eca9b-8fb0-4068-aee0-1658ff03f593):
-    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/e184edb8-5b47-47d5-a93d-2e86be2c5d9c):
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/57f785fb-c4fb-48e0-a663-6544042d3666); 
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/6fece475-c787-46d0-834b-6ede6cf956cf): Continue ```F5```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/b29ff752-c43f-4a10-aaa5-f0e5ff278543): Step over ```F10```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/13dbd9e3-54fb-40c9-b4c5-bd22bc32ac2c): Step into ```F11```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/2e226516-d2ec-412b-b182-0012822e0e03): Step out ```Shift + F11```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/823eca9b-8fb0-4068-aee0-1658ff03f593): Restart ```Ctrl + Shift+ F5```
+    - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/e184edb8-5b47-47d5-a93d-2e86be2c5d9c): Stop ```Shift + F5```
 
 - ## Revisão:
 
