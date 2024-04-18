@@ -573,6 +573,12 @@ em meados de 2001;
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/e184edb8-5b47-47d5-a93d-2e86be2c5d9c): Stop ```Shift + F5```
 
 - ## Revisão:
+  - **Definições:** .NET
+  - Instalação simples lado a lado;
+  - Tipos de projeto;
+  - Executar uma aplicação;
+  - Estrutura de um Console App;
+  - Debug;
 
 ## Linguegem de Programação - com C#:
 - ## Notas importantes:
