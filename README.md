@@ -590,7 +590,7 @@ em meados de 2001;
     - **Bons:**C:\dev, C:\apps;
     - **Ruins:** C:\ Caminho Com Espaços e Caracteres Especiais\Meu App;
   - Evite caminhos de rede se possível, utilize o C:\
-  - O C# é Code Sensitive:
+  - O C# é Case Sensitive:
     - Isto significa que ele diferencia maiúsculas de minúsculas;
     - Teste é diferente de teste;
 
