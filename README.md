@@ -595,6 +595,15 @@ em meados de 2001;
     - Teste é diferente de teste;
 
 - ## Escopo de um programa:
+  - **Definições:** Tudo o que um programa precisa para de fato ser executado
+  - Importações: do que vamos utilizar nesse programa. Elas ficam no começo do nosso arquivo;
+    - Ex.: Importação do módulo para escrita de arquivos em disco;
+    - Ex.: Importação do módulo para do acesso ao banco de dados;
+  - Namespace: São **separações lógicas**, serve para distinguir arquivos diferentes em pastas diferentes, porém com nomes iguais
+  - Classe: É o programa em si, tudo o que vai ser executado pelo programa está dentro da classe;
+  - Método Principal: É o sempre o primeiro método a ser executado;
+  - Na execução do projeto, a primeira coisa que é feita é a busca pelo **Program.cs**, lendo a classe **Program** e o que estiver no método **Main**;
+
 - ## Namespaces:
 - ## Using:
 - ## Variáveis:
