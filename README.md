@@ -582,6 +582,18 @@ em meados de 2001;
 
 ## Linguegem de Programação - com C#:
 - ## Notas importantes:
+  - **Definições:**
+  - Não utilze espaços nem caracteres especiais na criação  do programa:
+    - **Bons:** MeuApp, Pedidos, MinhaApp;
+    - **Ruins:** "MeuApp", $APP, App #Teste
+  - Tente utilizar caminhos curtos e sem caracteres especiais:
+    - **Bons:**C:\dev, C:\apps;
+    - **Ruins:** C:\ Caminho Com Espaços e Caracteres Especiais\Meu App;
+  - Evite caminhos de rede se possível, utilize o C:\
+  - O C# é Code Sensitive:
+    - Isto significa que ele diferencia maiúsculas de minúsculas;
+    - Teste é diferente de teste;
+
 - ## Escopo de um programa:
 - ## Namespaces:
 - ## Using:
