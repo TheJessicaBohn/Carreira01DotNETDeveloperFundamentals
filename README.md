@@ -640,7 +640,35 @@ em meados de 2001;
   - E o número de pessoas trabalhando no mesmo projeto também;
   - Entender bem esta organização é fundamental;
   - Use e abuse da criação de arquivos e namespaces, importante para organização;
+
 - ## Variáveis:
+  - **Definições:**
+  - Uma variável é algo  que utilizamos para armazenar uma informação;
+  - Ser variável significa que o valor pode ser alterado qualquer momento;
+  - Ou seja, ele pode variar;
+  - Sempre que "criamos" uma variável, dizemos que estamos inicializando-a;
+  - Podemos usar um TIPO  ou palavra reservada **var** para criar uma variável;
+    - Lembrando que o C# é uma linguagem fortemente tipada;
+  - Vamos aprender ainda sobre os tipos dados;
+  - No C# o tipo vem sempre antes do nome da variável;
+  - Podemos informar um valor já na criação da variavel;
+  - Se não informado o valor padrão será aplicado;
+  - ~~~C#
+    int idade; // Coreto, inicia em ZERO
+    int idade = 25 // Coreto, inicia em 25
+    var idade 25 // Coreto, inicia em 25
+    var idade // Errado
+    ~~~
+  - **var** salva muito espaço no nosso código, não a nível de compilação, mas a nível e visualização;
+  - **Definições:** Padronização de Nomes
+  - Utilize nomes coesos (Clean Code);
+    - Vai colocar por exemplo duração de algo: Ex.: ```duracaoEmHoras```, ```duracaoEmMinutos```;
+    - Seja mais especifico na criação das suas variáveis, isso dá mais expressividade ao seu código;
+    - Lembre-se de que outras pessoas vão ler seu código, e é importante que elas consigam ler com facilidade;
+  - Não utilize caracteres especiais ou espaços;
+  - Não comece com números;
+  - A primeira letra de cada palavra é SEMPRE minúscula;
+
 - ## Constantes:
 - ## Palavras Reservadas:
 - ## Comentários:
