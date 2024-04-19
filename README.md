@@ -605,6 +605,24 @@ em meados de 2001;
   - Na execução do projeto, a primeira coisa que é feita é a busca pelo **Program.cs**, lendo a classe **Program** e o que estiver no método **Main**;
 
 - ## Namespaces:
+  - **Definições:**
+  - Enquanto as pastas são divisões físicas;    
+    - São para ajudar o Windows a se localizar;
+  - Os namespaces são divisões lógicas;
+    - São para ajudar o C# a se localizar;
+  - Assim como não podemos ter dois arquivos com o mesmo nome nas pastas;
+  - Não podemos ter suas classes com o mesmo nome no mesmo namespace;
+  - O ideal é ter apenas um namespace e uma classe por arquivo;
+  - O escopo de um namespace é definido entre CHAVES:
+    - Classes e métodos também;
+  - Um namespace pode ser reutilizado;
+    - Pode estar presente em diversos arquivos;
+  - Mesmas regras de **Notas Importantes**
+  - Precisamos utilizar o ```using``` para importar o namespace;
+  - Durante a execução, todos os arquivos do C# serão unificados;
+  - A divisão física se perderá, irá se tornar apenas uma unica dll;
+  - Sobrará apenas a divisão lógica, os namespaces;
+
 - ## Using:
 - ## Variáveis:
 - ## Constantes:
