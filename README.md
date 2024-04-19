@@ -624,6 +624,22 @@ em meados de 2001;
   - Sobrará apenas a divisão lógica, os namespaces;
 
 - ## Using:
+  - **Definições:** Importações
+  - Importações definem as bibliotecas que o nosso programa irá utilizar;
+    - Sejam elas internas, como por exemplo o uso do namespace;
+    - Quanto externas, como por exempo o ```using System```
+  - Por padrão só o básico vem incluso;
+  - Precisamos importar o que desejamos para poder trabalhar;
+  - Isto é feito no começo do programa;
+  - Utilizamos a palavra reservada **using** para isso;
+    - Não é obrigatório, mas é uma boa prática;
+  - **Definições:** Notas importantes
+  - Organizar nosso código em namespaces é fundamental;
+  - Em aplicações grandes, o volume de código é alto;
+  - A quantidade de arquivos é alta;
+  - E o número de pessoas trabalhando no mesmo projeto também;
+  - Entender bem esta organização é fundamental;
+  - Use e abuse da criação de arquivos e namespaces, importante para organização;
 - ## Variáveis:
 - ## Constantes:
 - ## Palavras Reservadas:
