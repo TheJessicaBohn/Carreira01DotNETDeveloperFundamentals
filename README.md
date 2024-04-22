@@ -686,6 +686,12 @@ em meados de 2001;
 	const var IDADE 25 // Errado
 	const var IDADE // Errado
    ~~~
+   - **Definições:**Padronização de nomes
+   - Utilize nomes coesos;
+   - Não utilize caracteres especiais ou espaços;
+   - Não comece com números;
+   - É comum vermos constantes todas em maiúsculas, separadas por "_"
+   - A ideia é bater o olho  no código e saber que aquilo é uma constante;
   
 - ## Palavras Reservadas:
 - ## Comentários:
