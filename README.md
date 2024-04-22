@@ -670,6 +670,23 @@ em meados de 2001;
   - A primeira letra de cada palavra é SEMPRE minúscula;
 
 - ## Constantes:
+  - **Definições:**
+  - Assim como as variáveis utilizamos uma constante para armazenar uma infomação;
+  - As constantes NÃO PODEM ser alteradas;
+  - Uma vez criadas somos obrigados a atribuir um valor;
+  - Feito isso elas não poderão ser modificadas novamente;
+  - Não funcionam com a utilização de VAR;
+  - São mais otimizadas que as variáveis;
+  - Recomendadas para usos frequentes, regras;
+  - A definição de constante é dada pela palavra reservada **const** antes do tipo;
+  - Caso não seja informado um valor, o valor padrão será atribuido;
+  - ~~~C#
+    const int IDADE; // Coreto, inicia em ZERO
+	const int IDADE = 25 // Coreto, inicia em 25
+	const var IDADE 25 // Errado
+	const var IDADE // Errado
+   ~~~
+  
 - ## Palavras Reservadas:
 - ## Comentários:
 - ## Tipos primitivos:
@@ -691,7 +708,7 @@ em meados de 2001;
 - ## Convert:
 - ## Convertendo Tipos:
 - ## Operadores aritméticos:
-- ## Operadores de atribúição:
+- ## Operadores de atribuíção:
 - ## Operadores de comparação:
 - ## Utilizando operadores:
 - ## Operadores lógicos:
