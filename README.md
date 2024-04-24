@@ -694,6 +694,17 @@ em meados de 2001;
    - A ideia é bater o olho  no código e saber que aquilo é uma constante;
   
 - ## Palavras Reservadas:
+  - **Definições:** Nomes Reservados
+  - O C# possui alguns nomes que são reservados;
+    - Isso significa que não podemos utilizar esses nomes nem na criação de constantes e nem de variáveis;
+  - Também são chamados de keywords;
+  - São palavras de uso exclusivo do C#;
+  - O VS Code vai te avisar sobre eles;
+  - Lista de palavras reservadas do C#:
+  - ![image](https://github.com/TheJessicaBohn/Carreira01DotNETDeveloperFundamentals/assets/47541659/1af1cfe8-1be4-4484-8c41-fc26d6d13d92)
+  - ![image](https://github.com/TheJessicaBohn/Carreira01DotNETDeveloperFundamentals/assets/47541659/678773a9-fead-4c99-9f4c-08a3801df1f7)
+  - Fonte: [/learn.microsoft.com](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/);
+
 - ## Comentários:
 - ## Tipos primitivos:
 - ## System;
