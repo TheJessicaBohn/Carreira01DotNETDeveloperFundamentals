@@ -363,7 +363,7 @@ em meados de 2001;
   - Clique em instalar:
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f77ebd05-6afc-43dc-8bbd-e18507396484)
   - Não vou trabalhar com Linux e nem MAC OS, mas segue o link onde você pode escolher qual quer instalar: https://dotnet.microsoft.com/pt-br/download/dotnet/8.0
-  - pelo **Powershell** po terminal é possivel saber a versão do .NET instalado pelo comando ```dotnet --version```
+  - pelo **Powershell** po terminal é possível saber a versão do .NET instalado pelo comando ```dotnet --version```
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/06970190-c1e2-4559-987a-42a4a11f7bea)
 
 - ## Dotnet CLI:
@@ -563,7 +563,7 @@ em meados de 2001;
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/8981f4b1-6315-4543-b0ad-e01bd33618b1)
     - Clique na setinha verde ou ```F5```
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/f48eadaf-486d-4639-b31c-4c123feec11f)
-    - Ao funcionar o debug ele vai mostrar esses novos itens na tela, como o console de debug, a informação dentro das variáveis e o menu de break points, onde é possivel ir para os proximos pontos selecionados do código;
+    - Ao funcionar o debug ele vai mostrar esses novos itens na tela, como o console de debug, a informação dentro das variáveis e o menu de break points, onde é possível ir para os proximos pontos selecionados do código;
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/57f785fb-c4fb-48e0-a663-6544042d3666); 
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/6fece475-c787-46d0-834b-6ede6cf956cf): Continue ```F5```
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/b29ff752-c43f-4a10-aaa5-f0e5ff278543): Step over ```F10```
@@ -706,6 +706,26 @@ em meados de 2001;
   - Fonte: [/learn.microsoft.com](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/);
 
 - ## Comentários:
+  - **Definições:**
+  - Por mais que escrevemos o melhor código possível, muitas vezes não conseguimos expressar tudo o que era preciso com o código, então pra isso o comentário é muito importante;
+  - Em diversos cenários você precisará deixar uma mensagem;
+  - Essa mensagem não deve ser executada pelo programa;
+  - É comum utilizamos comentários em linhas que não desejamos executar também;
+  - Podemos ter comentários de:
+	- Uma linha;
+	- Múltiplas linhas;
+	- XML(Metadata);
+  - ``` // Comentário em uma linha
+        
+        /* 
+			Comentário em várias
+			linhas
+        */ 
+		
+		/// Notação XML(Metadata)
+	```
+  - Podemos utilizar o comando ``` Ctrl + ; ``` para comentar e descomentar ```//``` ;
+  - Lembrando que um código bem escrito já é um código bem documentado (Clean Code);
   
 - ## Tipos primitivos:
 - ## System;
