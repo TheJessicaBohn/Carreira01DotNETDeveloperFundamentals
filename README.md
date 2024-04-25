@@ -685,7 +685,7 @@ em meados de 2001;
 	const int IDADE = 25 // Coreto, inicia em 25
 	const var IDADE 25 // Errado
 	const var IDADE // Errado
-   ~~~
+   
    - **Definições:**Padronização de nomes
    - Utilize nomes coesos;
    - Não utilize caracteres especiais ou espaços;
@@ -706,6 +706,7 @@ em meados de 2001;
   - Fonte: [/learn.microsoft.com](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/);
 
 - ## Comentários:
+  
 - ## Tipos primitivos:
 - ## System;
 - ## Byte:
