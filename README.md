@@ -682,9 +682,9 @@ em meados de 2001;
   - Caso não seja informado um valor, o valor padrão será atribuido;
   - ~~~C#
     const int IDADE; // Coreto, inicia em ZERO
-	const int IDADE = 25 // Coreto, inicia em 25
-	const var IDADE 25 // Errado
-	const var IDADE // Errado
+    const int IDADE = 25 // Coreto, inicia em 25
+    const var IDADE 25 // Errado
+    const var IDADE // Errado
    
    - **Definições:**Padronização de nomes
    - Utilize nomes coesos;
@@ -712,23 +712,39 @@ em meados de 2001;
   - Essa mensagem não deve ser executada pelo programa;
   - É comum utilizamos comentários em linhas que não desejamos executar também;
   - Podemos ter comentários de:
-	- Uma linha;
-	- Múltiplas linhas;
-	- XML(Metadata);
+    - Uma linha;
+    - Múltiplas linhas;
+    - XML(Metadata);
   - ```
         // Comentário em uma linha
         
         /* 
-			Comentário em várias
-			linhas
+            Comentário em várias
+            linhas
         */ 
-		
-		/// Notação XML(Metadata)
-	```
+        
+        /// Notação XML(Metadata)
+    ```
   - Podemos utilizar o comando ``` Ctrl + ; ``` para comentar e descomentar ```//``` ;
   - Lembrando que um código bem escrito já é um código bem documentado (Clean Code);
   
 - ## Tipos primitivos:
+  - **Definições:**
+  - Também conhecidos como **built-in types**;
+  - São tipos base cujo outros tipos (Complexos) irão derivar;
+  - Definir o tipo base correto otimiza a execução do programa (alocar memoria otimizada, caso esteja corretamente tipada);
+  - São chamados de **Tipos de Valor** (Value Types);
+  - Armazenam o valor e não a referência para um  item na memoria;
+  - São Classificados em:
+    - Tipos Simples (Simple Types);
+	- Enumeradores (Enums);
+	- Estruturas (Structs);
+	- Tipos Nulos (Nullable Types);
+  - Cada tipo possui uma capacidade;
+  - Caso essa capacidade exceda, o programa gera um erro;
+  - Essa capacidade pré-definida ajuda na otimização do seu programa;
+  - Por exemplo o **int** que usamos previamente:
+	- ```-2,147,483,648 até 2,147,483,647```;
 - ## System;
 - ## Byte:
 - ## Números inteiros:
