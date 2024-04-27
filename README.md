@@ -745,7 +745,15 @@ em meados de 2001;
   - Essa capacidade pré-definida ajuda na otimização do seu programa;
   - Por exemplo o **int** que usamos previamente:
 	- ```-2,147,483,648 até 2,147,483,647```;
-- ## System;
+- ## System:
+  - **Definições:**
+  - Tipo base do .NET, é da onde todos os outros tipos derivam;
+  - Tudo no .NET começa pelo **System**;
+  - Todo e qualquer tipo, seja built-in ou complexo, derivam dele;
+  - Ele é a base de todos os objetos .NET;
+  - Não precisamos nos preocupar em usá-la  ou qualquer coisa similar;
+  - Seu uso já é implícito;
+
 - ## Byte:
 - ## Números inteiros:
 - ## Números reais:
