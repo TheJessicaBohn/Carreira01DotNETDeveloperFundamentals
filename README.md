@@ -755,6 +755,24 @@ em meados de 2001;
   - Seu uso já é implícito;
 
 - ## Byte:
+  - **Definições:**
+  - O tipo **Byte** é utilizado para representar um byte de fato;
+  - Em diversos casos precisa  da cadeia de bytes de um arquivo por exemplo;
+    - Também chamando de byte array;
+  - Temos também o **sbyte**, que permite valores negativos;
+  - ```
+	Signed e Unsigned
+	Valores como "-" por exemplo, são chamadas de signed.
+    ```
+   - Ele é um tipo primitivo, 8 bits = 1 byte;
+	- 0 ate 255;
+  - sbyte = 8 bits;
+	- -128 ate 127;
+  - Nota: que o **sbyte** permite valores negativos, por isso o nome **sbyte**, que significa **Signed Byte**.
+  - ```
+    byte meuByte = 127;
+    ```
+  -m Não é muito comum criar bytes assim na mão, a não ser que se esteja trabalhando com coisas muito especificas
 - ## Números inteiros:
 - ## Números reais:
 - ## Boolean:
