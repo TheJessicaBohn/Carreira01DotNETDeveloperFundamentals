@@ -793,6 +793,19 @@ em meados de 2001;
   - **ulong (64-bit):** 0 até 18.446.774.073.709.551.615;
 
 - ## Números reais:
+  - **Definições:**
+  - Números que exigem uma maior precisão, ou seja, com pontuação:
+	- **float (Notação F)**;
+	- **double**;
+	- **decimal (notação M)**;
+  - Possuem assimilação negativa e positiva por padrão, dispensando o uso do signed/unsigned em seus tipos;
+  - **float (32-bit)** -> 3.402823e38 até 3.402823e38
+  - **double (64-bit)** -> -1.79769313486232e308 até 1.79769313486232e308
+  - **decimal (128-bit)** (+ou-)1.0e-28 até 7.9x10e28
+  - Lembrando que por padrão os números sem qualquer ponto o C# os reconhece como **int** em caso de uso do **var**, e a partir de uso de pontos pode ser reconhecido como **double**;
+  - Para saber que se trata de um **float** é necessário colocar a notação f ao final do número. Ex.: ``` float saldo = 2.500f```, se não o compilador devolve que não pode implicitamente converter um esse valor para um tipo float;
+  - A mesma coisa se dá para o tipo **decimal** é necessária a utilização da notação. Ex: ``` decimal saldoTotal = 2.500m```;
+  
 - ## Boolean:
 - ## Char:
 - ## String:
