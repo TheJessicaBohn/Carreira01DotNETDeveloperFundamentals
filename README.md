@@ -772,7 +772,8 @@ em meados de 2001;
   - ```
     byte meuByte = 127;
     ```
-  - Não é muito comum criar bytes assim na mão, a não ser que se esteja trabalhando com coisas muito especificas
+  - Não é muito comum criar bytes assim na mão, a não ser que se esteja trabalhando com coisas muito especificas.
+
 - ## Números inteiros:
 - ## Números reais:
 - ## Boolean:
