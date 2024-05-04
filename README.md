@@ -775,6 +775,17 @@ em meados de 2001;
   - Não é muito comum criar bytes assim na mão, a não ser que se esteja trabalhando com coisas muito especificas.
 
 - ## Números inteiros:
+  - **Definições:**
+  - Um dos tipos mais usados são os números, tanto inteiros, quanto os reais;
+  - Os números inteiros, ou seja, sem pontuação, podem ser definidos pelos tipos:
+	- **short/ushort** -> números menores;
+	- **int/uint** -> números razoáveis;
+	- **long/ulong** -> números longos;
+  - **U** como prefixo significa **unsigned**,, ou seja, sem sinal;
+  - Assim como temos o **signed** nos bytes, nos números  por padrão são permitidos valores negativos;
+  - Então usamos o **unsigned** para definir que o mesmo não pode definir valores negativos;
+  - O tipo **int** é o mais comum de ser encontrado;
+
 - ## Números reais:
 - ## Boolean:
 - ## Char:
