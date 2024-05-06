@@ -807,6 +807,15 @@ em meados de 2001;
   - A mesma coisa se dá para o tipo **decimal** é necessária a utilização da notação. Ex: ``` decimal saldoTotal = 2.500m```;
   
 - ## Boolean:
+  - **Definições:**
+  - Tipo booleano, armazena apenas **true** ou **false** (verdadeiro ou falso);
+  - Definido pela palavra reservada **bool**;
+  - **bool (8-bit):** true or false;
+  - ~~~
+	bool usuarioJaCadastrado = false;
+	bool pagamentoRecebido = true;
+	var usuarioExpirado = false;
+	~~~
 - ## Char:
 - ## String:
 - ## Var:
