@@ -765,9 +765,9 @@ em meados de 2001;
 	Valores como "-" por exemplo, são chamadas de signed.
     ```
    - Ele é um tipo primitivo, 8 bits = 1 byte;
-	- 0 ate 255;
+	- 0 até 255;
   - sbyte = 8 bits;
-	- -128 ate 127;
+	- -128 até 127;
   - Nota: que o **sbyte** permite valores negativos, por isso o nome **sbyte**, que significa **Signed Byte**.
   - ```
     byte meuByte = 127;
