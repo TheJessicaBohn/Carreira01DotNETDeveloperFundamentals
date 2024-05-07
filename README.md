@@ -1,20 +1,20 @@
-# [Carreira 01. .NET Developer Fundamentals](https://balta.io/carreiras/dotnet-fundamentals)
+# [Carreira 01 - .NET Developer Fundamentals](https://balta.io/carreiras/dotnet-fundamentals)
 
 ## Linguagens e Compiladores:
 - ## O que são linguagens de programação?
-    - **Definições:**
-        - É uma forma de comunicação humano-computador, onde o humano fala para o computador como executar um comando;
-        - Já que os computadores entendem apenas binário, uma LP (linguagem de programação), faz esse intermédio;
-        - O que escrevemos em determinada linguagem o compilador transforma em liguagem de maquina (binário);
-        - Em resumo temos um arquivo de texto:
-            - Que um humano consegue ler;
-            - Que será traduzido para binário;
+  - **Definições:**
+  - É uma forma de comunicação humano-computador, onde o humano fala para o computador como executar um comando;
+  - Já que os computadores entendem apenas binário, uma LP (linguagem de programação), faz esse intermédio;
+  - O que escrevemos em determinada linguagem o compilador transforma em liguagem de maquina (binário);
+  - Em resumo temos um arquivo de texto:
+    - Que um humano consegue ler;
+    - Que será traduzido para binário;
 
 - ## Alto e Baixo Nível:
   - **Definições:**
   - O envio de instruções ao computador é o nível de maquina;
   - As instruções ao computador sempre serão no formato binário;
-  - Quanto mais detalhada(como microproessadores que tem pouca memória) a necessidade, mais baixo é o nível;
+  - Quanto mais detalhada(como microprossadores que tem pouca memória) a necessidade, mais baixo é o nível;
   - Linguagens mais modernas e mais proximas do usuário, como C# e Java, são chamados de liguagem de alto nível, pois é mais favorecida para os usuários em detrimento do processador;
   - Assembly: Baixo nível;
   - C#: Alto nível;
@@ -23,26 +23,26 @@
 - ## Linguagens compiladas e interpretadas:
   - **Definições:**
   - **Compiladas:**
-      - É quando existe o processo de compilção da linguagem;
-      - Consiste em receber um arquivo de texto e convertê-lo num binário;
-      - Normamente são mais legíveis para o ser humano;
+    - É quando existe o processo de compilção da linguagem;
+    - Consiste em receber um arquivo de texto e convertê-lo num binário;
+    - Normamente são mais legíveis para o ser humano;
   - **Interpretadas:**
-      - Arquivos de testo puro, não transformados em binários;
-      - Eles são lidos em tempo de execução, por um intérprete;
-      - JavaScript é um exemplo de linguagem interpretada;
-      - No caso do JavaScript:
-          - O navegador é escrito em uma linguagem de auto nível;
-          - Possuindo um interpretador;
-          - Lê e executa um arquivo de JavaScript;
+    - Arquivos de texto puro, não transformados em binários;
+    - Eles são lidos em tempo de execução, por um intérprete;
+    - JavaScript é um exemplo de linguagem interpretada;
+    - No caso do JavaScript:
+      - O navegador é escrito em uma linguagem de auto nível;
+      - Possuindo um interpretador;
+      - Lê e executa um arquivo de JavaScript;
 
 - ## Compilada VS Interpretada:
   - **Definições:**
   - Geralmente usamos as duas, principalmente se você for um desenvolvedor Web;
-  - Não se prenda há um tipo de linguagem pois no fim,não faz diferença pois a compilação ou interpretação ocorre "por baixo dos panos";
+  - Não se prenda há um tipo de linguagem, pois no fim, não faz diferença pois a compilação ou interpretação ocorre "por baixo dos panos";
   - Aprenda bem uma(Seja especialista em uma), mas conheça outras também;
   - **Interpretadas:**
     - **Prós:**
-      - Não precisa ser compilada (só colocar um novo arquivo) ;
+      - Não precisa ser compilada (só colocar um novo arquivo);
       - Correções mais faceis de serem executadas, pois são arquivos estáticos e não tem a necessidade de ser traduzida para uma linguagem de maquina antes, um output antes;
       - Mais simples de serem distribuídas;
     - **Contras: (Tradeoffs)**
@@ -64,28 +64,29 @@
   - São linguagens também chamadas de fortemente tipadas;
   - Obrigam a especificar o **tipo de dado** da informação;
   - Menor liberdade (diferente do JavaScript com var);
-  - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e nde guardar aquela variável;
-  ``` int idade = 18; // Ok
-  int idade = 18.2; // Erro
-  int idade = "18"; // Erro
-  int idade = 'a'; // Erro
-  ```
+  - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e onde guardar aquela variável;
+  -``` int idade = 18; // Ok
+	int idade = 18.2; // Erro
+	int idade = "18"; // Erro
+	int idade = 'a'; // Erro
+	```
   - Nada fora de um número inteiro é aceito no caso acima em C#, que é uma linguagem fortemente tipada;
   - Esse mesmo exemplo em JavaScript que é uma linguagem fracamente ou não tipada, teriamos o seguinte resultado:
-  ``` int idade = 18; // Ok
-  int idade = 18.2; // Ok
-  int idade = "18"; // Ok
-  int idade = 'a'; // Ok
-  ```
+  -``` int idade = 18; // Ok
+	int idade = 18.2; // Ok
+	int idade = "18"; // Ok
+	int idade = 'a'; // Ok
+	```
   - Por definição os tipos são para padronizar os dados, para nós e para o processador/memória;
   - O **let** utiliza sempre o mesmo tamanho de alocação;
   - Tipando temos uma otimização, o compilador avisa do erro, além de saber o espaço de memória a ser alocado previamente, trazendo assim mais performance para o programa;
   - Exemplo no **C#**:
-  ``` int => 32 bit
-  float => 32 bit
-  double => 64 bit
-  decimal => 128 bit
-  ```
+  - ``` int => 32 bit
+	float => 32 bit
+	double => 64 bit
+	decimal => 128 bit
+	```
+
 - ## Revisão:
   - **Definições:**
   - Linguagens Tipadas e não tipadas;
