@@ -818,6 +818,17 @@ em meados de 2001;
 	var usuarioExpirado = false;
 	~~~
 - ## Char:
+  - **Definições:**
+  - Utilizado para armazenar apenas um e somente um caractere no formato Unicode;
+  - Definido pela palavra reservada **char**;
+  - A atribuíção de um valor char é dada por aspas simples;
+  - **char (16-bit):** qualquer caractere;
+  - ~~~
+	char primeiraLetra = "P"; // Erro pois aspas duplas são para um conjunto ou cadeia de chars
+	char primeiraLetra = 'P'; // Ok
+	var segundaLetra = 's'; // Ok dessa forma o próprio compilador entende que essa declaração se trata de um char
+	~~~
+
 - ## String:
 - ## Var:
 - ## Object:
