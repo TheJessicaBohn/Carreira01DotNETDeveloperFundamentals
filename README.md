@@ -830,6 +830,19 @@ em meados de 2001;
 	~~~
 
 - ## String:
+  - **Definições:**
+  - Armazena uma cadeia de caracteres;
+  - Podemos pensar nele como uma lista de **char**;
+  - Definido pela palavra reservada **string**;
+  - A atribuição de um valor string é dada por aspas duplas;
+  - **string (?):** uma cadeia de caracteres;
+  - ~~~
+	 string primeiraLetra = "P"; // Ok, por mais que ele tenha apenas uma letra ele é uma cadeia de caracteres, e isso significa que isso é uma lista, então isso é uma lista de carácter com um carácter só;
+	 string primeiraLetra = 'P' // Erro, string é sempre com aspas duplas;
+	 string texto = " Meu Texto"; // Ok
+	 var documento = " 12358496654"; // Ok, dessa forma ele é reconhecido como string, e se pode passar qualquer tipo de carácter, seja número, letra, ou carácter especial;
+	~~~
+
 - ## Var:
 - ## Object:
 - ## Nullable Types:
