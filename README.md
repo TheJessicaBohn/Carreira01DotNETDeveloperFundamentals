@@ -819,7 +819,7 @@ em meados de 2001;
 	~~~
 - ## Char:
   - **Definições:**
-  - Utilizado para armazenar apenas um e somente um caractere no formato Unicode;
+  - Utilizado para armazenar apenas um e somente um carácter no formato Unicode;
   - Definido pela palavra reservada **char**;
   - A atribuíção de um valor char é dada por aspas simples;
   - **char (16-bit):** qualquer caractere;
@@ -899,7 +899,7 @@ em meados de 2001;
 
 ## Mão na massa - Editor de textos:
 - ## Iniciando o projeto:
-- ## Iteração e caractere de escape:
+- ## Iteração e carácter de escape:
 - ## Do/While na prática:
 - ## StreamWriter
 - ## Salvando arquivo:
