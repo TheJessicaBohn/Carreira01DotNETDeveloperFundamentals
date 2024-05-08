@@ -845,6 +845,18 @@ em meados de 2001;
 
 - ## Var:
   - **Definições:**
+  - Substitui o nome de qualquer tipo;
+  - Será do tipo do primeiro valor atribuido, e depois não se pode mudar o tipo;
+  - Recomendando o uso: deixe para usar **var** quando já dominar os tipos;
+  - ~~~
+	var idade = 27; // Será do tipo int;
+	idade = "Bohn" // vai ocorrer um erro pois eu já declarei essa variável anteriormente como sendo do tipo int, mesmo implicitamente;
+	var nome = "Jéssica" // Será do tipo string;
+  - A vantagem de se utilizar var, é quando temos tipos criados pelo desenvolvedor, e ou são complexos. Ex.:
+  - ~~~
+	IEnumerable<MeuTipoComplexo> lista = new IEnumerable<MeuTipoComplexo>(); // Tipo, nome da variável, e qual valor ela recebe;
+	var lista = new IEnumerable<MeuTipoComplexo>(); // var recebe o mesmo tipo da sintaxe acima;
+	~~~
 
 - ## Object:
   - **Definições:**
