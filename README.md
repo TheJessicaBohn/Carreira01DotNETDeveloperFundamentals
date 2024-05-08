@@ -844,34 +844,80 @@ em meados de 2001;
 	~~~
 
 - ## Var:
+  - **Definições:**
+
 - ## Object:
+  - **Definições:**
+
 - ## Nullable Types:
+  - **Definições:**
+
 - ## Alias:
+  - **Definições:**
+
 - ## Valores padrões:
+  - **Definições:**
+
 - ## Conversão implícita:
+  - **Definições:**
+
 - ## Conversão explicita:
+  - **Definições:**
+
 - ## Parse:
+  - **Definições:**
+
 - ## Convert:
+  - **Definições:**
+
 - ## Convertendo Tipos:
 - ## Operadores aritméticos:
+  - **Definições:**
+
 - ## Operadores de atribuíção:
+  - **Definições:**
+
 - ## Operadores de comparação:
+  - **Definições:**
+
 - ## Utilizando operadores:
 - ## Operadores lógicos:
+  - **Definições:**
+
 - ## Operador condicional - IF:
+  - **Definições:**
+
 - ## Utilizando IF:
 - ## Estrutura Condicional - Switch:
+  - **Definições:**
+
 - ## Laços de repetição - For:
+  - **Definições:**
+
 - ## Laços de repetição - While:
+  - **Definições:**
+
 - ## Laços de repetição - Do/While:
+  - **Definições:**
+
 - ## Métodos e funções:
+  - **Definições:**
+
 - ## Métodos e funções - Prática:
 - ## Value Types e Reference Types:
+  - **Definições:**
+
 - ## Value Types e Reference Types - Prática:
 - ## Structs
+  - **Definições:**
+
 - ## Structs - Prática:
 - ## Enums:
+  - **Definições:**
+
 - ## Revisão:
+  - **Definições:**
+
 
 ## Mão na massa - Criando uma calculadora:
 - ## Iniciando o projeto:
