@@ -860,6 +860,20 @@ em meados de 2001;
 
 - ## Object:
   - **Definições:**
+  - Tipo genérico que recebe qualquer valor ou objeto;
+  - Caso não saiba  o tipo da informação ou ela seja de vários tipos diferentes;
+  - Não possui intellisense (Ajuda de editores) por ser um tipo desconhecido, e é uma grande desvantagem;
+  - Evite usar;
+  - Enquanto **var** serve para omitir um tipo, o object serve para definir um tipo;
+  - Serve principalmente para trabalhar com listas e tipos genéricos;
+  - ~~~
+	object idade = 27; // Será do tipo object;
+	object nome = "Jéssica" // Será do tipo object;
+	~~~
+  - No var é obrigado sabermos o tipo;
+  - No object é como se fosse o **any** em TypeScript;
+  - Ele permite passar valores de float pra int tranquilamente e isso pode ser perigoso;
+  - O object é um tipo desconhecido, enquanto o var é um atalho de tipo;
 
 - ## Nullable Types:
   - **Definições:**
