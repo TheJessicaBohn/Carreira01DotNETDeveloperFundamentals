@@ -876,7 +876,21 @@ em meados de 2001;
   - O object é um tipo desconhecido, enquanto o var é um atalho de tipo;
 
 - ## Nullable Types:
-  - **Definições:**
+  - **Definições:** Null
+  - Significa vazio, nada usado para definição de tipo;
+  - Diferente de zero ou uma string vazia;
+  - Todo tipo, primitivo ou complexo pode receber o valor null;
+  - O tipo deve ser marcado como Nullable Type;
+  - **void** significa vazio, não tem retorno nenhum, é nada, é o mesmo que o null, porém para retorno de métodos;
+  - Podemos atribuir **null**  a um objeto;
+  - Desde que o mesmo seja marcado como como nullable;
+	- Usando *interrogação* na frente do tipo;
+  - Se uma chamada a um valor nulo for feita um erro será apresentado caso não tenha a interrogação;
+  - ~~~
+	int? idade = null;
+	idade = 25;
+	idade = 0;
+	~~~
 
 - ## Alias:
   - **Definições:**
