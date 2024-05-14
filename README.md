@@ -908,6 +908,14 @@ em meados de 2001;
 
 - ## Valores padrões:
   - **Definições:**
+  - Todo tipo built-in, já possui um valor padrão;
+  - Se nenhum valor  informado, seu valor for informado será utilizado:
+	- **int:** 0;
+	- **float:** 0;
+	- **decimal:** 0;
+	- **bool:** false;
+	- **char:** '\0';
+	- **string:** "";
 
 - ## Conversão implícita:
   - **Definições:**
