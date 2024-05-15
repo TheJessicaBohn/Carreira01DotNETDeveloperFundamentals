@@ -919,6 +919,36 @@ em meados de 2001;
 
 - ## Conversão implícita:
   - **Definições:**
+  - É comum precisamos transformar um dado de tipo X em tipo Y;
+  - Existem dois tipos de conversão: as implícitas e as explícitas;
+  - As implícitas são conversões que:
+	- Podem ser executadas apenas com passagem de dados, ou seja sem explicitar nada;
+	- Possuem tipos compatíveis;
+  - ~~~
+	float valor = 25.8F;
+	int outro = 25;
+	valor = outro; //conversão implícita;
+	~~~
+  - A conversão anterior ocorreu pois um número real pode receber um número inteiro;
+  - Porém, ao contrário não aconteceria;
+	- Um número inteiro não tem pontuação;
+	- Logo ele não receberia um número real;
+  - A conversão só ocorrerá se:
+	- O tipo de dado for compatível;
+	- O tamanho do dado for compatível;
+  - Em caso de números a precisão pode ser alterada;
+  - Qualquer situação adversa causará erro;
+  - **Tabela de conversão**
+	- **sbyte:** short, int, long, float, double, decimal;
+	- **byte:** short, ushort, int, uint, long, ulong, float, double, decimal;
+	- **short:** int, long, float, double, decimal;
+	- **ushort:** int, uint, long, ulong, float, double, decimal;
+	- **int:** long, float, double, decimal;
+	- **uint:** long, ulong, float, double, decimal;
+	- **long:** float, double, decimal;
+	- **ulong:** float, double, decimal;
+	- **char:** ushort, int, uint, long, ulong, float, double, decimal;
+	- **float:** double;
 
 - ## Conversão explicita:
   - **Definições:**
