@@ -950,8 +950,21 @@ em meados de 2001;
 	- **char:** ushort, int, uint, long, ulong, float, double, decimal;
 	- **float:** double;
 
-- ## Conversão explicita:
+- ## Conversão explícita:
   - **Definições:**
+  - Se a conversão implícita é aquela que escondemos o tipo;
+  - Na conversão explícita temos que obrigatoriamente informar o tipo que estamos convertendo;
+  - Ocorre quando os tipos não são compatíveis;
+  - É dada pelo uso do tipo entre parênteses antes da atribuíção;
+  - Segue as mesmas regras anteriores;
+  - ~~~
+	int inteiro = 100;
+	uint inteiroSemSinal = (uint)inteiro; //conversão explícita;
+	~~~
+  - Um inteiro por exemplo aceita números com sinal e sem sinal, então não podemos diretamente passar diretamente um valor **int** para um **uint**;
+  - sempre que virmos essa notação da antes do nome da variável, isto é uma conversão explícita;
+  - Caso o valor for negativo, na hora de executar o programa, ele vai dar um erro;
+  - Quanto menos usarmos a conversão explícita melhor para garantir que vamos ter menos erros;
 
 - ## Parse:
   - **Definições:**
