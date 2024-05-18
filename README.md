@@ -968,6 +968,15 @@ em meados de 2001;
 
 - ## Parse:
   - **Definições:**
+  - Método presente em todo tipo primitivo;
+  - Usado para converter um carácter ou string para um tipo qualquer;
+  - Caso haja alguma incompatibilidade, gera um erro;
+  - ~~~
+	int inteiro = int.Parse("100"); // tentando converter uma cadeia de caracteres chamada "100", pois está entre aspas duplas;
+	~~~
+  - No exemplo acima até da certo a conversão pois apesar de ser uma cadeia de caracteres, de fato é um número, porém se tivesse algum espaço ou qualquer outro tipo de carácter, o parse, daria um erro, seguindo a lógica da conversão explícita, dando um erro em tempo de execução, e não daria tempo de tratar isso em tempo de depuração;
+  - Essa função tenta converter um tipo para um inteiro um double ou decimal;
+  - Porém no **Parse** ele sempre espera uma string, ou cadeia de caracteres;
 
 - ## Convert:
   - **Definições:**
