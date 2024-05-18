@@ -995,6 +995,48 @@ em meados de 2001;
   - Tirando a conversão implícita todos os outros tipos de conversão dão um erro em tempo de execução, o que leva a ter mais cuidado na hora do uso desse tipo de conversão e dos testes na hora de soltar para o usuário;
 
 - ## Convertendo Tipos:
+  - **Definições:** conversão explícita x conversão implícita
+  - ~~~
+	int inteiro; // apenas definido dessa forma, ele seta o valor padrão para inteiro que é zero;
+	 int inteiro = 100; // é interessante sempre já inicializar a variável ou o tipo para que o mesmo não fique vazio;
+	float real = 25.5f; // poderiamos usar o var, e também é importante lembrar que o float tem a notação .0f;
+	 
+	inteiro = real; // vamos ter um erro pois pois não podemos fazer um conversão implícita do tipo float para int;
+	real = inteiro; // dessa forma funciona, pois é possível fazer a conversão implícita, e nesse caso o real passa a valer 100.0f;
+	 ~~~
+  - Se de fato fosse necessário fazer essa conversão do número real para o inteiro, lembrando que isso pode gerar um warning. 
+  - Lembrando também que quando um inteiro recebe um real, ele faz o arredondamento desse numero;
+  - ~~~
+	inteiro = (int)real; 
+	~~~
+  - Existe alguns itens como **Math.ceil()** e **Math.floor** que fazem o arredondamento para cima ou para baixo de acordo com a necessidade do programa;
+  - **Definições:** Parse
+  - Na maioria dos tipos primitivos podemos usar o parse, porém ele sempre espera uma string;
+  - ~~~
+	inteiro = int.Parse(real); // aqui dá um erro pois ele não pdoe converter um float para um 'System.ReadOnlySpan<char>'
+	~~~
+  - Existe também um outro método de conversão muito utilizado. Eu uso bastante particularmente no meu trabalho. O **.ToString()**;
+	- Todo objeto dentro do .NET tem tem esse método, ele é utilizado para convertê-lo em uma string;
+	- Que pode ser usado da sequinte maneira:
+  - ~~~
+	inteiro = int.Parse(real.ToString()); // nesse caso estamos estamos fazendo primeiramente uma conversão para inteiro em um Parse de um número real, 
+										  // mas antes foi necessário converter um número real para uma string, que é o que ocorre dentro do ();
+	
+	string valorReal = real.ToString; // que também poderia ser feito dessa forma;
+	inteiro = valorReal;
+									  // lembrando que se considerarmos todo esse código como um único programa, esse código daria um erro em tempo de execução
+									  // Pois o valor de valorReal seria uma string "25.5", ou seja não é possível converter sem um (int) para um inteiro;
+	~~~
+  - **Definições:**Convert
+  - Lembrando que ele tem 19 sobrecargas para um int por exemplo para fazer a conversão entre boolean, float etc;
+  - ~~~
+	inteiro = Convert.ToInt32(real) // então para que o programa acima desse o valor correto precisariamos utilizar o Convert
+									// Lembrando que no caso do Convert ele faz o arredondamento automático para cima ou para baixo;
+	
+	Console.WriteLine(Convert.Boolean(1)) // nesse caso seria true para qualquer numero diferente de zero, e se fosse zero seria false;
+										  / apenas um exemplo a mais do uso do Convert;
+	~~~
+
 - ## Operadores aritméticos:
   - **Definições:**
 
