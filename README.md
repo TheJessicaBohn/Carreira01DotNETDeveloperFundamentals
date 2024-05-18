@@ -980,6 +980,19 @@ em meados de 2001;
 
 - ## Convert:
   - **Definições:**
+  - Similar ao parse visto anteriormente;
+  - Porém permite converter vários tipos de valor;
+	- Não apenas strings;
+  - Devemos informar  o tipo na chamada de conversão;
+  - ~~~
+	 int inteiro = Convert.ToInt32("100");
+	 ~~~
+  - Ao contrário do **Parse** que é uma extensão dos tipos, o **Convert** é de fato uma classe;
+	- Ele é um objeto que permite que a gente converta uma string para outro tipo, podendo ser para qualquer outro tipo primitivo;
+  - E a grande vantagem do Convert sobre o Parse, é que o mesmo permite converter vários tipos para um inteiro, não somente uma string;
+	- Podendo ser um float, um double ou boolean;
+  - Assim como a conversão explícita e o Parse ele vai tentar converter, se ele não conseguir executar essa conversão, ele vai acusar um erro em tempo de execução para o usuário; 
+  - Tirando a conversão implícita todos os outros tipos de conversão dão um erro em tempo de execução, o que leva a ter mais cuidado na hora do uso desse tipo de conversão e dos testes na hora de soltar para o usuário;
 
 - ## Convertendo Tipos:
 - ## Operadores aritméticos:
