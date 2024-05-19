@@ -1038,7 +1038,29 @@ em meados de 2001;
 	~~~
 
 - ## Operadores aritméticos:
-  - **Definições:**
+  - **Definições:** Operações Aritméticas
+  - Soma => +
+  - Subtração => -
+  - Multiplicação => *
+  - Divisão => /
+  - Multiplicação e divisão são executadas primeiro;
+  - Caso queira executar em outra ordem, usar parênteses;
+  - Aceita short, int, float, double e decimal;
+  - Em caso de uso de números inteiros:
+	- Se o valor for real, será arredondado;
+	- 4,5 => 5;
+  - ~~~
+	int soma = 25 + 22; // 47
+	int subtracao = 25 - 22; // 3
+	int multiplicacao =  25; * 22 // 550 
+	int divisao = 22 / 5; // 4 pois foi arredondado
+	~~~
+  - Utilizamos parênteses para redefinir a ordem de execução
+  - ~~~
+	int x = 2 + 2 * 2; // 6
+	int y = 2 + (2 * 2); // 6 mesmo do anterior
+	int z = (2 + 2) * 2; // 8 pois executou soma primeiro
+	~~~
 
 - ## Operadores de atribuíção:
   - **Definições:**
