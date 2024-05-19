@@ -1075,7 +1075,25 @@ em meados de 2001;
 	x /= 2; // x = x / 2;
 
 - ## Operadores de comparação:
-  - **Definições:**
+  - **Definições:** Operações de Comparação
+  - Tem o efeito de comparar um dado com o outro;
+  - Podemos comparar qualquer tipo de dado: números, strings, bytes, etc;
+  - A comparação SEMPRE retorna verdadeiro ou falso: True ou False;
+  - **Igual:** ==;
+  - **Diferente:** !=;
+  - **Maior que:** >;
+  - **Menor que:** <;
+  - **Maior ou igual a:** >=;
+  - **Mernor ou igual a:** <=;
+  - ~~~
+	int x = 25; // atribuição;
+	x == 0; // False
+	x != 0; // True
+	x > 0; // True
+	x < 0; // False
+	x <= 0; // False
+	x >= 0; // True
+	~~~
 
 - ## Utilizando operadores:
 - ## Operadores lógicos:
