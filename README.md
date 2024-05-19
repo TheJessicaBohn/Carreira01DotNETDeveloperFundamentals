@@ -1062,8 +1062,17 @@ em meados de 2001;
 	int z = (2 + 2) * 2; // 8 pois executou soma primeiro
 	~~~
 
-- ## Operadores de atribuíção:
-  - **Definições:**
+- ## Operadores de atribuição:
+  - **Definições:** Operações de Atribuição
+  - Utilizamos igual para atribuir um valor;
+  - Porém, podemos utilizar igual junto a um operador aritmético;
+  - **x += 5** é o mesmo que **x = x + 5**;
+  - ~~~
+	int x = 0; // atribuição;
+	x += 5; // x = x + 5;
+	x -= 1; // x = x - 1;
+	x *= 10; // x = x * 10;
+	x /= 2; // x = x / 2;
 
 - ## Operadores de comparação:
   - **Definições:**
