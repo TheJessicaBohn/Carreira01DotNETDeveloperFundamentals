@@ -65,27 +65,29 @@
   - Obrigam a especificar o **tipo de dado** da informação;
   - Menor liberdade (diferente do JavaScript com var);
   - Maior otimização, pois ele já sabe onde na memória ele vai guardar aquela informação, pois pelo tipo ele sabe o tamanho e onde guardar aquela variável;
-  -``` int idade = 18; // Ok
+  - ~~~C# 
+	int idade = 18; // Ok
 	int idade = 18.2; // Erro
 	int idade = "18"; // Erro
 	int idade = 'a'; // Erro
-	```
+	~~~
   - Nada fora de um número inteiro é aceito no caso acima em C#, que é uma linguagem fortemente tipada;
   - Esse mesmo exemplo em JavaScript que é uma linguagem fracamente ou não tipada, teriamos o seguinte resultado:
-  -``` int idade = 18; // Ok
+  - ~~~C#
+	int idade = 18; // Ok
 	int idade = 18.2; // Ok
 	int idade = "18"; // Ok
 	int idade = 'a'; // Ok
-	```
+	~~~
   - Por definição os tipos são para padronizar os dados, para nós e para o processador/memória;
   - O **let** utiliza sempre o mesmo tamanho de alocação;
   - Tipando temos uma otimização, o compilador avisa do erro, além de saber o espaço de memória a ser alocado previamente, trazendo assim mais performance para o programa;
   - Exemplo no **C#**:
-  - ``` int => 32 bit
+  - ~~~C# 
+	int => 32 bit
 	float => 32 bit
 	double => 64 bit
-	decimal => 128 bit
-	```
+	~~~
 
 - ## Revisão:
   - **Definições:**
@@ -510,16 +512,18 @@ em meados de 2001;
     - Definições do projeto
     - Presente em todo projeto .NET
     - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/26324290-292b-417f-87cf-60543d4210b4)
-    -     ```<Project Sdk="Microsoft.NET.Sdk">
+    - ~~~C#
+	<Project Sdk="Microsoft.NET.Sdk">
 
-          <PropertyGroup>
-          <OutputType>Exe</OutputType>
-          <TargetFramework>net8.0</TargetFramework>
-          <ImplicitUsings>enable</ImplicitUsings>
-          <Nullable>enable</Nullable>
-          </PropertyGroup>
+	<PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-            </Project>```
+	</Project>
+	~~~
     - 1º demonstra que ele está usando o .NET SDK, que vimos a instalação anteriormente;]
     - 2º encontramos o **PropertyGroup**, que apenas define um grupo;
     - 3º cada tipo de projeto tem um output. Nesse caso foi criado um console, e o output dele é do tipo **.exe**
@@ -533,7 +537,7 @@ em meados de 2001;
     - Nessa imagem podemos ver que o program.cs da versão do .NET 8 está bem mais enxuta que as suas versões anteriores;
   - Ao abrir o projeto **ProjetoTeste** podemos ver que ele gerou a pasta **obj**, e os arquivos **Program.cs**, e **ProjetoTeste.csproj**, a pasta **bin** foi gerada ao executar um ```dotnet build```;
   - ![image](https://github.com/TheJessicaBohn/Carreira-01.-.NET-Developer-Fundamentals/assets/47541659/c3d1d997-da0f-41ed-af0c-05531dee08a3)
-    - Então o resultade de uma compilação fica dentro de uma pasta bin(binary).
+    - Então o resultado de uma compilação fica dentro de uma pasta bin(binary).
     - O .csproj, a sua nomenclatura sempre segue o nome que você deu ao criar o projeto;
     - **cs:** C#, e **proj:** de projeto;
     - A pasta **obj**, é usada para tempo de  da nossa aplicação
@@ -659,7 +663,7 @@ em meados de 2001;
     int idade = 25 // Coreto, inicia em 25
     var idade 25 // Coreto, inicia em 25
     var idade // Errado
-    ~~~C#
+    ~~~
   - **var** salva muito espaço no nosso código, não a nível de compilação, mas a nível e visualização;
   - **Definições:** Padronização de nomes
   - Utilize nomes coesos (Clean Code);
@@ -716,7 +720,7 @@ em meados de 2001;
     - Uma linha;
     - Múltiplas linhas;
     - XML(Metadata);
-  - ```
+  - ~~~C#
         // Comentário em uma linha
         
         /* 
@@ -725,7 +729,7 @@ em meados de 2001;
         */ 
         
         /// Notação XML(Metadata)
-    ```
+	~~~
   - Podemos utilizar o comando ``` Ctrl + ; ``` para comentar e descomentar ```//``` ;
   - Lembrando que um código bem escrito já é um código bem documentado (Clean Code);
   
@@ -761,18 +765,18 @@ em meados de 2001;
   - Em diversos casos precisa  da cadeia de bytes de um arquivo por exemplo;
     - Também chamando de byte array;
   - Temos também o **sbyte**, que permite valores negativos;
-  - ```
+  - ~~~C#
 	Signed e Unsigned
 	Valores como "-" por exemplo, são chamadas de signed.
-    ```
+	~~~
    - Ele é um tipo primitivo, 8 bits = 1 byte;
 	- 0 até 255;
   - sbyte = 8 bits;
 	- -128 até 127;
   - Nota: que o **sbyte** permite valores negativos, por isso o nome **sbyte**, que significa **Signed Byte**.
-  - ```
+  - ~~~C#
     byte meuByte = 127;
-    ```
+	~~~
   - Não é muito comum criar bytes assim na mão, a não ser que se esteja trabalhando com coisas muito especificas.
 
 - ## Números inteiros:
@@ -821,7 +825,7 @@ em meados de 2001;
   - **Definições:**
   - Utilizado para armazenar apenas um e somente um carácter no formato Unicode;
   - Definido pela palavra reservada **char**;
-  - A atribuíção de um valor char é dada por aspas simples;
+  - A atribuição de um valor char é dada por aspas simples;
   - **char (16-bit):** qualquer caractere;
   - ~~~C#
 	char primeiraLetra = "P"; // Erro pois aspas duplas são para um conjunto ou cadeia de chars
@@ -955,7 +959,7 @@ em meados de 2001;
   - Se a conversão implícita é aquela que escondemos o tipo;
   - Na conversão explícita temos que obrigatoriamente informar o tipo que estamos convertendo;
   - Ocorre quando os tipos não são compatíveis;
-  - É dada pelo uso do tipo entre parênteses antes da atribuíção;
+  - É dada pelo uso do tipo entre parênteses antes da atribuição;
   - Segue as mesmas regras anteriores;
   - ~~~C#
 	int inteiro = 100;
@@ -985,8 +989,8 @@ em meados de 2001;
 	- Não apenas strings;
   - Devemos informar  o tipo na chamada de conversão;
   - ~~~C#
-	 int inteiro = Convert.ToInt32("100");
-	 ~~~
+	int inteiro = Convert.ToInt32("100");
+	~~~
   - Ao contrário do **Parse** que é uma extensão dos tipos, o **Convert** é de fato uma classe;
 	- Ele é um objeto que permite que a gente converta uma string para outro tipo, podendo ser para qualquer outro tipo primitivo;
   - E a grande vantagem do Convert sobre o Parse, é que o mesmo permite converter vários tipos para um inteiro, não somente uma string;
@@ -1000,7 +1004,6 @@ em meados de 2001;
 	int inteiro; // apenas definido dessa forma, ele seta o valor padrão para inteiro que é zero;
 	int inteiro = 100; // é interessante sempre já inicializar a variável ou o tipo para que o mesmo não fique vazio;
 	float real = 25.5f; // poderiamos usar o var, e também é importante lembrar que o float tem a notação .0f;
-	 
 	inteiro = real; // vamos ter um erro pois pois não podemos fazer um conversão implícita do tipo float para int;
 	real = inteiro; // dessa forma funciona, pois é possível fazer a conversão implícita, e nesse caso o real passa a valer 100.0f;
 	 ~~~
@@ -1073,6 +1076,7 @@ em meados de 2001;
 	x -= 1; // x = x - 1;
 	x *= 10; // x = x * 10;
 	x /= 2; // x = x / 2;
+	~~~
 
 - ## Operadores de comparação:
   - **Definições:** Operações de Comparação
@@ -1117,7 +1121,7 @@ em meados de 2001;
   - ~~~C#
 	int x = 2; // operador de atribuição
 	x += 3; // x foi inicilizado com 2, e depois foi adicionado a ele o valor de 5, então resultado é 5
-	 ~~~~
+	 ~~~ 4:25
 
 - ## Operadores lógicos:
   - **Definições:**
