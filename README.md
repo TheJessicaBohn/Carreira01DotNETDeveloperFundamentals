@@ -659,9 +659,9 @@ em meados de 2001;
     int idade = 25 // Coreto, inicia em 25
     var idade 25 // Coreto, inicia em 25
     var idade // Errado
-    ~~~
+    ~~~C#
   - **var** salva muito espaço no nosso código, não a nível de compilação, mas a nível e visualização;
-  - **Definições:** Padronização de Nomes
+  - **Definições:** Padronização de nomes
   - Utilize nomes coesos (Clean Code);
     - Vai colocar por exemplo duração de algo: Ex.: ```duracaoEmHoras```, ```duracaoEmMinutos```;
     - Seja mais especifico na criação das suas variáveis, isso dá mais expressividade ao seu código;
@@ -687,7 +687,7 @@ em meados de 2001;
     const var IDADE 25 // Errado
     const var IDADE // Errado
    
-   - **Definições:**Padronização de nomes
+   - **Definições:** Padronização de nomes
    - Utilize nomes coesos;
    - Não utilize caracteres especiais ou espaços;
    - Não comece com números;
@@ -812,7 +812,7 @@ em meados de 2001;
   - Tipo booleano, armazena apenas **true** ou **false** (verdadeiro ou falso);
   - Definido pela palavra reservada **bool**;
   - **bool (8-bit):** true or false;
-  - ~~~
+  - ~~~C#
 	bool usuarioJaCadastrado = false;
 	bool pagamentoRecebido = true;
 	var usuarioExpirado = false;
@@ -823,7 +823,7 @@ em meados de 2001;
   - Definido pela palavra reservada **char**;
   - A atribuíção de um valor char é dada por aspas simples;
   - **char (16-bit):** qualquer caractere;
-  - ~~~
+  - ~~~C#
 	char primeiraLetra = "P"; // Erro pois aspas duplas são para um conjunto ou cadeia de chars
 	char primeiraLetra = 'P'; // Ok
 	var segundaLetra = 's'; // Ok dessa forma o próprio compilador entende que essa declaração se trata de um char
@@ -836,7 +836,7 @@ em meados de 2001;
   - Definido pela palavra reservada **string**;
   - A atribuição de um valor string é dada por aspas duplas;
   - **string (?):** uma cadeia de caracteres;
-  - ~~~
+  - ~~~C#
 	 string primeiraLetra = "P"; // Ok, por mais que ele tenha apenas uma letra ele é uma cadeia de caracteres, e isso significa que isso é uma lista, então isso é uma lista de carácter com um carácter só;
 	 string primeiraLetra = 'P' // Erro, string é sempre com aspas duplas;
 	 string texto = " Meu Texto"; // Ok
@@ -848,12 +848,12 @@ em meados de 2001;
   - Substitui o nome de qualquer tipo;
   - Será do tipo do primeiro valor atribuido, e depois não se pode mudar o tipo;
   - Recomendando o uso: deixe para usar **var** quando já dominar os tipos;
-  - ~~~
+  - ~~~C#
 	var idade = 27; // Será do tipo int;
 	idade = "Bohn" // vai ocorrer um erro pois eu já declarei essa variável anteriormente como sendo do tipo int, mesmo implicitamente;
 	var nome = "Jéssica" // Será do tipo string;
   - A vantagem de se utilizar var, é quando temos tipos criados pelo desenvolvedor, e ou são complexos. Ex.:
-  - ~~~
+  - ~~~C#
 	IEnumerable<MeuTipoComplexo> lista = new IEnumerable<MeuTipoComplexo>(); // Tipo, nome da variável, e qual valor ela recebe;
 	var lista = new IEnumerable<MeuTipoComplexo>(); // var recebe o mesmo tipo da sintaxe acima;
 	~~~
@@ -866,7 +866,7 @@ em meados de 2001;
   - Evite usar;
   - Enquanto **var** serve para omitir um tipo, o object serve para definir um tipo;
   - Serve principalmente para trabalhar com listas e tipos genéricos;
-  - ~~~
+  - ~~~C#
 	object idade = 27; // Será do tipo object;
 	object nome = "Jéssica" // Será do tipo object;
 	~~~
@@ -886,7 +886,7 @@ em meados de 2001;
   - Desde que o mesmo seja marcado como como nullable;
 	- Usando *interrogação* na frente do tipo;
   - Se uma chamada a um valor nulo for feita um erro será apresentado caso não tenha a interrogação;
-  - ~~~
+  - ~~~C#
 	int? idade = null;
 	idade = 25;
 	idade = 0;
@@ -901,7 +901,7 @@ em meados de 2001;
   - Como o C# é Case Sensitive, tanto faz escrevermos um ou outro;
   - Porém, o recomendado é sempre usar o **alias**;
   - No caso abaixo o resultado é o mesmo, e com alias, escrevemos menos;
-  - ~~~
+  - ~~~C#
 	int idade = 25; //Alias
 	Int32 idade = 25; // Tipo
 	~~~
@@ -924,7 +924,7 @@ em meados de 2001;
   - As implícitas são conversões que:
 	- Podem ser executadas apenas com passagem de dados, ou seja sem explicitar nada;
 	- Possuem tipos compatíveis;
-  - ~~~
+  - ~~~C#
 	float valor = 25.8F;
 	int outro = 25;
 	valor = outro; //conversão implícita;
@@ -957,7 +957,7 @@ em meados de 2001;
   - Ocorre quando os tipos não são compatíveis;
   - É dada pelo uso do tipo entre parênteses antes da atribuíção;
   - Segue as mesmas regras anteriores;
-  - ~~~
+  - ~~~C#
 	int inteiro = 100;
 	uint inteiroSemSinal = (uint)inteiro; //conversão explícita;
 	~~~
@@ -971,7 +971,7 @@ em meados de 2001;
   - Método presente em todo tipo primitivo;
   - Usado para converter um carácter ou string para um tipo qualquer;
   - Caso haja alguma incompatibilidade, gera um erro;
-  - ~~~
+  - ~~~C#
 	int inteiro = int.Parse("100"); // tentando converter uma cadeia de caracteres chamada "100", pois está entre aspas duplas;
 	~~~
   - No exemplo acima até da certo a conversão pois apesar de ser uma cadeia de caracteres, de fato é um número, porém se tivesse algum espaço ou qualquer outro tipo de carácter, o parse, daria um erro, seguindo a lógica da conversão explícita, dando um erro em tempo de execução, e não daria tempo de tratar isso em tempo de depuração;
@@ -984,7 +984,7 @@ em meados de 2001;
   - Porém permite converter vários tipos de valor;
 	- Não apenas strings;
   - Devemos informar  o tipo na chamada de conversão;
-  - ~~~
+  - ~~~C#
 	 int inteiro = Convert.ToInt32("100");
 	 ~~~
   - Ao contrário do **Parse** que é uma extensão dos tipos, o **Convert** é de fato uma classe;
@@ -996,9 +996,9 @@ em meados de 2001;
 
 - ## Convertendo Tipos:
   - **Definições:** conversão explícita x conversão implícita
-  - ~~~
+  - ~~~C#
 	int inteiro; // apenas definido dessa forma, ele seta o valor padrão para inteiro que é zero;
-	 int inteiro = 100; // é interessante sempre já inicializar a variável ou o tipo para que o mesmo não fique vazio;
+	int inteiro = 100; // é interessante sempre já inicializar a variável ou o tipo para que o mesmo não fique vazio;
 	float real = 25.5f; // poderiamos usar o var, e também é importante lembrar que o float tem a notação .0f;
 	 
 	inteiro = real; // vamos ter um erro pois pois não podemos fazer um conversão implícita do tipo float para int;
@@ -1006,35 +1006,35 @@ em meados de 2001;
 	 ~~~
   - Se de fato fosse necessário fazer essa conversão do número real para o inteiro, lembrando que isso pode gerar um warning. 
   - Lembrando também que quando um inteiro recebe um real, ele faz o arredondamento desse numero;
-  - ~~~
+  - ~~~C#
 	inteiro = (int)real; 
 	~~~
   - Existe alguns itens como **Math.ceil()** e **Math.floor** que fazem o arredondamento para cima ou para baixo de acordo com a necessidade do programa;
   - **Definições:** Parse
   - Na maioria dos tipos primitivos podemos usar o parse, porém ele sempre espera uma string;
-  - ~~~
+  - ~~~C#
 	inteiro = int.Parse(real); // aqui dá um erro pois ele não pdoe converter um float para um 'System.ReadOnlySpan<char>'
 	~~~
   - Existe também um outro método de conversão muito utilizado. Eu uso bastante particularmente no meu trabalho. O **.ToString()**;
 	- Todo objeto dentro do .NET tem tem esse método, ele é utilizado para convertê-lo em uma string;
 	- Que pode ser usado da sequinte maneira:
-  - ~~~
+  - ~~~C#
 	inteiro = int.Parse(real.ToString()); // nesse caso estamos estamos fazendo primeiramente uma conversão para inteiro em um Parse de um número real, 
-										  // mas antes foi necessário converter um número real para uma string, que é o que ocorre dentro do ();
+					// mas antes foi necessário converter um número real para uma string, que é o que ocorre dentro do ();
 	
 	string valorReal = real.ToString; // que também poderia ser feito dessa forma;
 	inteiro = valorReal;
-									  // lembrando que se considerarmos todo esse código como um único programa, esse código daria um erro em tempo de execução
-									  // Pois o valor de valorReal seria uma string "25.5", ou seja não é possível converter sem um (int) para um inteiro;
+					// lembrando que se considerarmos todo esse código como um único programa, esse código daria um erro em tempo de execução
+					// Pois o valor de valorReal seria uma string "25.5", ou seja não é possível converter sem um (int) para um inteiro;
 	~~~
   - **Definições:**Convert
   - Lembrando que ele tem 19 sobrecargas para um int por exemplo para fazer a conversão entre boolean, float etc;
-  - ~~~
+  - ~~~C#
 	inteiro = Convert.ToInt32(real) // então para que o programa acima desse o valor correto precisariamos utilizar o Convert
-									// Lembrando que no caso do Convert ele faz o arredondamento automático para cima ou para baixo;
+					// lembrando que no caso do Convert ele faz o arredondamento automático para cima ou para baixo;
 	
 	Console.WriteLine(Convert.Boolean(1)) // nesse caso seria true para qualquer numero diferente de zero, e se fosse zero seria false;
-										  / apenas um exemplo a mais do uso do Convert;
+					// apenas um exemplo a mais do uso do Convert;
 	~~~
 
 - ## Operadores aritméticos:
@@ -1049,14 +1049,14 @@ em meados de 2001;
   - Em caso de uso de números inteiros:
 	- Se o valor for real, será arredondado;
 	- 4,5 => 5;
-  - ~~~
+  - ~~~C#
 	int soma = 25 + 22; // 47
 	int subtracao = 25 - 22; // 3
 	int multiplicacao =  25; * 22 // 550 
 	int divisao = 22 / 5; // 4 pois foi arredondado
 	~~~
   - Utilizamos parênteses para redefinir a ordem de execução
-  - ~~~
+  - ~~~C#
 	int x = 2 + 2 * 2; // 6
 	int y = 2 + (2 * 2); // 6 mesmo do anterior
 	int z = (2 + 2) * 2; // 8 pois executou soma primeiro
@@ -1067,7 +1067,7 @@ em meados de 2001;
   - Utilizamos igual para atribuir um valor;
   - Porém, podemos utilizar igual junto a um operador aritmético;
   - **x += 5** é o mesmo que **x = x + 5**;
-  - ~~~
+  - ~~~C#
 	int x = 0; // atribuição;
 	x += 5; // x = x + 5;
 	x -= 1; // x = x - 1;
@@ -1085,7 +1085,7 @@ em meados de 2001;
   - **Menor que:** <;
   - **Maior ou igual a:** >=;
   - **Mernor ou igual a:** <=;
-  - ~~~
+  - ~~~C#
 	int x = 25; // atribuição;
 	x == 0; // False
 	x != 0; // True
