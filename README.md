@@ -1096,6 +1096,29 @@ em meados de 2001;
 	~~~
 
 - ## Utilizando operadores:
+  - **Definições:** Operadores de aritméticos
+  - ~~~C#
+	int x = 2; // atribuindo valor 2 para x6
+	x = 2 + 2; // operador aritmético de soma com resultado 4
+	x = 2 + 2 * 2; // resultado 6, pois ele faz a operação de multiplicação e divisão antes
+	x = (2 + 2) * 2; // para então ele fazer subtração e adição antes é necessário se colocar os parênteses
+			// então o resultado é igual a 8;
+
+	double y = 0;
+	 y = 75 / 23.8; // divisão utilizando double para aumentar a precisão com resultado 3.1512605042016806
+
+	double z = 0;
+	z = 75 * 23.8; // multiplicação com double, mesmo assim veio o resultado 1785, que é um valor inteiro
+
+	double w = 0;
+	w 75 - 23.8; // subtração com resultado 51.2
+	~~~
+ - **Definições:** Operadores de atribuição
+  - ~~~C#
+	int x = 2; // operador de atribuição
+	x += 3; // x foi inicilizado com 2, e depois foi adicionado a ele o valor de 5, então resultado é 5
+	 ~~~~
+
 - ## Operadores lógicos:
   - **Definições:**
 
