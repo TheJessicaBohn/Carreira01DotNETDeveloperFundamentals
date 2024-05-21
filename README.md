@@ -1102,7 +1102,7 @@ em meados de 2001;
 - ## Utilizando operadores:
   - **Definições:** Operadores de aritméticos
   - ~~~C#
-	int x = 2; // atribuindo valor 2 para x6
+	int x = 2; // atribuindo valor 2 para x
 	x = 2 + 2; // operador aritmético de soma com resultado 4
 	x = 2 + 2 * 2; // resultado 6, pois ele faz a operação de multiplicação e divisão antes
 	x = (2 + 2) * 2; // para então ele fazer subtração e adição antes é necessário se colocar os parênteses
@@ -1117,11 +1117,24 @@ em meados de 2001;
 	double w = 0;
 	w 75 - 23.8; // subtração com resultado 51.2
 	~~~
- - **Definições:** Operadores de atribuição
+  - **Definições:** Operadores de atribuição
   - ~~~C#
 	int x = 2; // operador de atribuição
 	x += 3; // x foi inicilizado com 2, e depois foi adicionado a ele o valor de 5, então resultado é 5
-	 ~~~ 4:25
+	// lembrando que esse tipo de lógica vale também para os outros operadores, (*, /, -)
+	x ++; // adicionando sempre mais 1
+	x --; // subtraíndo sempre menos 1
+	 ~~~
+  - **Definições:** Operadores de comparação
+  - ~~~C#
+	int x = 2; // atribuindo valor 2
+	Console.WriteLine(x == 25); // False
+	Console.WriteLine(x != 25); // True
+	Console.WriteLine(x < 25); // True
+	Console.WriteLine(x > 25); // False
+	Console.WriteLine(x <= 25); // True
+	Console.WriteLine(x >= 25); // False
+	~~~
 
 - ## Operadores lógicos:
   - **Definições:**
