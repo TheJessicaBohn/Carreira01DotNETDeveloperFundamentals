@@ -298,13 +298,13 @@ em meados de 2001;
   - **Final:**
     - Versão Final, então precisamos tomar cuidado com as versões anteriores; 
   - **15.8.2**;
-  - **Major:(15)**
+  - **Major: (15)**
     - Pode conter incompatibilidades com versões anteriores;
     - Chamadas de breaking changes;
-  - **Minor:(8)**
+  - **Minor: (8)**
     - Possui mudanças, mas é totalmente compatível com versões anteriores;
     - Backward Compatibility;
- - **PATCH:(2)** Correcões de bugs e outros itens simples;
+ - **PATCH: (2)** Correcões de bugs e outros itens simples;
  - Podemos utilizar anotações com:
    - Alpha => 0.0.1-a1;
    - Beta => 0.0.2-b1;
@@ -1311,7 +1311,7 @@ em meados de 2001;
 - **Major:** Sempre o primeiro número de uma release, a release maior. Ex.: versão 2 para versão 3, podendo ser até um produto novo, e não tem garantia nenhuma da versão anterior para nova;
 - **Minor:** Sempre o segundo número, ex.: versão 2.1 para versão 2.2, significa que as mudanças foram pequenas e mais leves, elas podem quebrar, mas não é uma mudança completa, não trocou um pacote ou um produto;
 - **MS:** MicroSoft;
-- **OOP - Object-oriented programming: ** Programação orientada a objetos;
+- **OOP - Object-oriented programming:** Programação orientada a objetos;
 - **Patch:** Terceiro número 2.1.0 para 2.1.1. Correção de bugs;
 - **Release:** Nova versão de um aplicativo;
 - **Release Candidate:** É a release canditada a ser a versão final da nossa aplicação. Está com os bugs corrigidos, nomes corretos;
