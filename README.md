@@ -1138,6 +1138,11 @@ em meados de 2001;
 
 - ## Operadores lógicos:
   - **Definições:**
+  - Usado para operações condicionais;
+  - Retorna SEMPRE verdadeiro ou falso;
+  - **E - and (&&)**: Deve atender TODAS as condições;
+  - **Ou - or (||)**: Se atender uma condição já retorna verdadeiro;
+  - ** Negação - not (!)**: 
 
 - ## Operador condicional - IF:
   - **Definições:**
