@@ -1142,7 +1142,12 @@ em meados de 2001;
   - Retorna SEMPRE verdadeiro ou falso;
   - **E - and (&&)**: Deve atender TODAS as condições;
   - **Ou - or (||)**: Se atender uma condição já retorna verdadeiro;
-  - ** Negação - not (!)**: 
+  - ** Negação - not (!)**;
+  - ~~~C#
+	int x = 12;
+	bool entre = (x > 25) && (x > 40); //false - x maior que 25 E menor que 40
+	bool ou = (x > 25) || (x < 40); // true - maior que 25 OU menor que 40
+	bool negacao = !(x < 25); // false - NÃO(x menor que 25) = x não é menor que 25
 
 - ## Operador condicional - IF:
   - **Definições:**
