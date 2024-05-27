@@ -1150,8 +1150,20 @@ em meados de 2001;
 	bool negacao = !(x < 25); // false - NÃO(x menor que 25) = x não é menor que 25
 
 - ## Operador condicional - IF:
-  - **Definições:**
-
+  - **Definições:** IF
+  - Mais famosa estrutura condicional;
+  - Tradução:"SE" ou seja, "caso alguma condição seja atendida";
+  - Utilizada para tomada de decisões;
+  - Utiliza os operadores lógicos;
+  - **Definições:** ELSE
+  - Complemento ao **IF**;
+  - Caso a condição não seja atendida;
+  - Podemos ter:
+    - **else if(condição)**
+    - NÃO tem limites (mas cuidado)
+  - Podemos ter apenas **else** para executar algo caso a condição seja atendida 
+ 1:00
+    
 - ## Utilizando IF:
 - ## Estrutura Condicional - Switch:
   - **Definições:**
