@@ -1162,8 +1162,25 @@ em meados de 2001;
     - **else if(condição)**
     - NÃO tem limites (mas cuidado)
   - Podemos ter apenas **else** para executar algo caso a condição seja atendida 
- 1:00
-    
+  - ~~~C#
+	if(condicao) { // caso seja verdadeiro
+	...
+	} else { // caso seja falso
+	...
+	}
+	if(condicao) // caso seja verdadeiro
+	...          // caso ó haja uma linha, não precisa de chaves
+	else // caso seja falso
+	
+	if(condicao) { // caso seja verdadeiro
+	...
+	} else if(condicao){ // senão testa outra condição
+	...
+	} else if(condicao){ // senão testa outra condição
+	...
+	}
+    ~~~
+  -
 - ## Utilizando IF:
 - ## Estrutura Condicional - Switch:
   - **Definições:**
