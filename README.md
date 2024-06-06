@@ -1178,10 +1178,95 @@ em meados de 2001;
 	...
 	} else if(condicao){ // senão testa outra condição
 	...
+	} else { // senão acontecer nenhuma das anteriores
+	...
 	}
     ~~~
   -
 - ## Utilizando IF:
+  - **Definições**
+  - Em relação as condicionais e as composições o IF sempre tem a seguinte estrutura:
+  - ~~~C#
+	if (25 == 35)
+	{
+	  Console.WriteLine("É igual");
+	} // nesse caso como é false, ele nunca entra nesse escopo de execução
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+  - ~~~C#
+		if(25 != 35) // nesse caso temos uma mudança de lógica então dessa forma ele "caí" no if
+	  Console.WriteLine("É diferente"); // nesse caso não preciso de {} pois a condição tem apenas uma linha	
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+  - ~~~C#
+	if (25 != 35)
+	  Console.WriteLine("É diferente");
+	else
+	  Console.WriteLine("É igual");
+	// Nesse caso de apenas uma linha dentro do escopo da condição podemos retirar os {} tanto do if, como do else
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+  - No código abaixo é feita uma composição da condição em duas partes, no caso do && as duas condições devem ser atendidas
+  - ~~~C#
+	int idade = 18;
+	int maiorIdade = 21;
+	int idadeMaxima = 65;
+
+	if (idade >= maiorIdade && idade < idadeMaxima) 
+	{
+	  Console.WriteLine("É igual");
+	}
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+	- Há também os casos de negação, onde eu quero o false, porém é muito facil de se confundirn então o ideal é se trocar os sinais de comparação;
+  - ~~~C#
+	int idade = 18;
+	int maiorIdade = 21;
+
+	if (!(idade >= maiorIdade)) 
+	{
+	  Console.WriteLine("É igual");
+	}
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+  - Caso haja muitas linhas de código dentro do if também o ideal é se inver a lógica para se caso for verdadeiro, sair dessa função, deixando da seguinte forma:
+  - ~~~C#
+	int idade = 18;
+	int maiorIdade = 21;
+
+	if(idade <= maiorIdade)
+	  return; // nesse caso ele pausa a execução, saindo dessa função e assim não executa o resto do código
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	Console.WriteLine("É igual");
+	~~~~
+ - ~~~C#
+ 	int idade = 18;
+	int maiorIdade = 21;
+	if (idade >= maiorIdade)
+	{
+	  Console.WriteLine("É diferente");
+	} else if (idade >= 25)
+	{
+	  Console.WriteLine("É 25");
+	} else if (idade >= 32)
+	{
+	  Console.WriteLine("É 32");
+	}
+	else
+	{
+	  Console.WriteLine("É nada");
+	}
+	// pode se colocar else if infinitos
+	// no if ou else que ele cair ele pausa a execução e para a verificação;
+	Console.WriteLine("Finalizou o programa");
+	~~~~
+
 - ## Estrutura Condicional - Switch:
   - **Definições:**
 
