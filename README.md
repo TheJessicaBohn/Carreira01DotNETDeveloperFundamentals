@@ -1355,6 +1355,16 @@ em meados de 2001;
 
 ## Datas:
 - ## Iniciando com datas:
+  - **Definições:**
+  - Exite um tipo no .NET que se chama **DateTime**(não citado anteriormente);
+  - Ele é do tipo de valor **Struct**, tem vários métodos armazenando, ano, mês, dia, hora, entre outras coisas.
+  - Lembrando que os structs são sempre inicializados com tipos primitivos, como inteiros e strings, e tipos primitivos sempre tem que ser inicializados se não eles pegam um valor padrão do sistema;
+  - ~~~C#
+    var data = new DateTime(); // data criada, agora podemos passar alguns parametros;
+    var dataDeHoje = DateTime.Now; // pega a data de hoje;
+    Console.WriteLine(data); // retorna então 1/1/0001 12:00:00 AM
+    Console.WriteLine(dataDeHoje); // retorna então 7/24/2024 11:00:00 PM
+    ~~~
 - ## Obtendo valores da data:
 - ## Formatando datas:
 - ## Padrões de formatação:
