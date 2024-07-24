@@ -1362,10 +1362,27 @@ em meados de 2001;
   - ~~~C#
     var data = new DateTime(); // data criada, agora podemos passar alguns parametros;
     var dataDeHoje = DateTime.Now; // pega a data de hoje;
+    var dataCriada = new DateTime(2024, 6, 21, 21, 21, 47); // ano, mês, dia, hora, minuto e segundo
     Console.WriteLine(data); // retorna então 1/1/0001 12:00:00 AM
     Console.WriteLine(dataDeHoje); // retorna então 7/24/2024 11:00:00 PM
     ~~~
+
 - ## Obtendo valores da data:
+  -**Definições**:
+  - Dentro do **DateTime** temos uma sobrecarga de métodos, que podemos criar uma data de diferentes formas;
+  - ~~~C#
+    Console.WriteLine(dataCriada); // 6/21/2024 9:21:47 PM
+
+    Console.WriteLine(data.Year); // retorna então 2024
+    Console.WriteLine(data.Month); // retorna então 7
+    Console.WriteLine(data.Day); // retorna então 24
+    Console.WriteLine(data.Hour); // retorna então 9
+    Console.WriteLine(data.Minutes); // retorna então 4
+    Console.WriteLine(data.Second); // retorna então 47
+    Console.WriteLine(data.DayOfWeek); // retorna então quarta-feira
+    Console.WriteLine((int)data.DayOfWeek); // cast pois o DayOfweek é um enum, retornando 4
+    Console.WriteLine(data.DayOfYear); //retorna o dia do ano que estamos no momento 206
+    ~~~
 - ## Formatando datas:
 - ## Padrões de formatação:
 - ## Adicionando valores:
