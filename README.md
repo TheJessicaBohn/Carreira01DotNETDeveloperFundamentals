@@ -1029,7 +1029,7 @@ em meados de 2001;
 	inteiro = valorReal;
 					// lembrando que se considerarmos todo esse código como um único programa, esse código daria um erro em tempo de execução
 					// Pois o valor de valorReal seria uma string "25.5", ou seja não é possível converter sem um (int) para um inteiro;
-	~~~
+    ~~~
   - **Definições:**Convert
   - Lembrando que ele tem 19 sobrecargas para um int por exemplo para fazer a conversão entre boolean, float etc;
   - ~~~C#
@@ -1368,7 +1368,7 @@ em meados de 2001;
     ~~~
 
 - ## Obtendo valores da data:
-  -**Definições**:
+  - **Definições**:
   - Dentro do **DateTime** temos uma sobrecarga de métodos, que podemos criar uma data de diferentes formas;
   - ~~~C#
     Console.WriteLine(dataCriada); // 6/21/2024 9:21:47 PM
