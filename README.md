@@ -1294,6 +1294,34 @@ em meados de 2001;
 
 - ## Laços de repetição - For:
   - **Definições:**
+  - Tradução:"para", ou seja, para cada item em um valor...
+  - Executa uma determinadaa ação varias vezes;
+  - Definifo pela palavra ```for``;
+  - Exige 3 parametros:
+	- Contador;
+	- Condição;
+	- Incremento.
+  - ~~~C#
+  
+    // palavra de uso (inicialização de variável contadora; condição; incremento)
+	for (var i = 0; i < = 5; i++) 
+	
+	// conta de 0 a 5
+	for (var i = 0; i <= 5; i++)
+	   Console.WriteLine(i);
+	
+	// conta de 1 a 5
+	for (var i = 1; i <= 5; i++)
+		Console.WriteLine(i);
+	
+	// conta de 0 a 4
+	for (var i = 0; i < 5; i++)
+		Console.WriteLine(i);
+	
+	// conta de 5 a 0
+	for (var i = 5; i >= 0; i--)
+		Console.WriteLine(i);
+	~~~
 
 - ## Laços de repetição - While:
   - **Definições:**
