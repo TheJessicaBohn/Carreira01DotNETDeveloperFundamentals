@@ -1269,6 +1269,28 @@ em meados de 2001;
 
 - ## Estrutura Condicional - Switch:
   - **Definições:**
+  - Significa chavear, é usada para fazer um chaveamento;
+  - Utilizada quando temos muitas decisões, código fica mal estruturado se usar if **no caso de muitas decisões**;
+  - Executada em cascata;
+  - Devemos parar manualmente a execução com o comando ```break```;
+  - Possui uma execução padrão chamada ```default```;
+  - ~~~C#
+	 int valor = 1;
+	 switch (valor)
+	 {
+		case 1: Console.WriteLine("1"); break;
+		case 2: Console.WriteLine("2"); break;
+		case 3: Console.WriteLine("3"); break;
+		default: Console.WriteLine("4"); break; // se não for 1,2 ou 3 ele escreve 4 na tela
+	~~~
+  - ~~~C#
+	 bool: valor = true;
+	 switch (valor)
+	 {
+		case true: Console.WriteLine("verdadeiro"); break;
+		case false: Console.WriteLine("falso"); break;
+		default: Console.WriteLine("nulo"); break; // uso em caso de bool
+	~~~
 
 - ## Laços de repetição - For:
   - **Definições:**
@@ -1372,7 +1394,6 @@ em meados de 2001;
   - Dentro do **DateTime** temos uma sobrecarga de métodos, que podemos criar uma data de diferentes formas;
   - ~~~C#
     Console.WriteLine(dataCriada); // 6/21/2024 9:21:47 PM
-
     Console.WriteLine(data.Year); // retorna então 2024
     Console.WriteLine(data.Month); // retorna então 7
     Console.WriteLine(data.Day); // retorna então 24
