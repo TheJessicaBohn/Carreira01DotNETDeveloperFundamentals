@@ -1325,6 +1325,44 @@ em meados de 2001;
 
 - ## Laços de repetição - While:
   - **Definições:**
+  - Tradução: "Enquanto", ou seja, enquanto uma condição for verdadeira...
+  - Definida pela palavra ```while```;
+  - Exige apenas uma condição;
+  - Checa a condição ANTES de executar, se for falso ele não executa;
+  - ~~~C#
+	int valor = 0;
+	
+	// conta de 0 a 5
+	// exibe de 0 a 5 na tela
+	while (valor <= 5)
+	{
+		Console.WriteLine(valor);
+		valor++;
+	}
+	
+	// conta de 0 a 5
+	// exibe de 1 a 6 na tela, pois o valor etá sendo incrementado antes de exibir;
+	while (valor <= 5)
+	{
+		valor++;
+		Console.WriteLine(valor);
+	}
+	
+	// imprime zero infinito na tela pois nunca muda de valor sem o incremento valor++;
+	while (valor <= 5)
+	{
+		Console.WriteLine(valor);
+	}
+
+	// assumindo que valor = 0 e é int
+	// incrementa até o int receber a quantidade de números e dá erro;
+	while (true)
+	{
+		valor++;
+		Console.WriteLine(valor);
+	}
+	
+  ~~~
 
 - ## Laços de repetição - Do/While:
   - **Definições:**
