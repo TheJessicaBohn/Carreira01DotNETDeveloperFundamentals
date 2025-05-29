@@ -1393,6 +1393,26 @@ em meados de 2001;
 
 - ## Métodos e funções:
   - **Definições:**
+  - Não é possível ter método dentro de método no C#;
+  - ```void``` nunca retorna nada;
+  - ```static```a classe não precisa ser instanciada;
+  - quando se usa estrutura condicinais como ```if``` sem o ```else``` por exemplo pode dar o seguinte erro ```not all code paths return a value```,
+  pois se a condição for falsa oq ue vai ser retornado?
+  - Sempre que for != de ```void```, seu método deve retornar algo;
+  - Pode-se usar o ```+``` para concatenação dentro de um ```return```
+  - ```return nome + sobrenome```;
+  - Se você tiver muitos parâmetros o C# te permite estruturar:
+  - ~~~C#
+	static string RetornaNome(
+		string nome, 
+		string sobrenome,
+		int idade = 30
+	)
+    {...
+   ~~~
+   - lembrando que não deve haver vírgula no último parâmeto;
+   - No caso da idade sendo um novo parâmeto incluídop recentemente, podemos colocar um valor default para que não quebre o código;
+   
 
 - ## Métodos e funções - Prática:
 - ## Value Types e Reference Types:
