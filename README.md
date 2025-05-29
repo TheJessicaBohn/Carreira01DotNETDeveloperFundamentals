@@ -1366,6 +1366,30 @@ em meados de 2001;
 
 - ## Laços de repetição - Do/While:
   - **Definições:**
+  - Tradução: "Faça", ou seja realisa uma ação enquanto...
+  - Definido pela palavra: ````do/while```;
+  - Exige apenas uma condição no ```while```;
+  - Checa a condição DEPOIS de executar;
+  - Menos utilizado que o ```while```;
+  - ~~~C#
+	int valor = 0;
+
+	// conta de 0 a 4
+	do
+	{
+		Console.WriteLine(valor);
+		valor++;
+	} while (valor < 5);
+
+	// conta de 0 a 5
+	do
+	{
+		Console.WriteLine(valor);
+		valor++;
+	} while (valor <= 5);
+
+  ~~~
+  
 
 - ## Métodos e funções:
   - **Definições:**
