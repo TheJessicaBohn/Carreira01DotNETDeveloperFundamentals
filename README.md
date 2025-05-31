@@ -1424,8 +1424,60 @@ em meados de 2001;
    - lembrando que não deve haver vírgula no último parâmeto;
    - No caso da idade sendo um novo parâmeto incluído recentemente, podemos colocar um valor default para que não quebre o código;
    - No caso de parâmeto opcional ele obrigatoriamente deve vir por último;
+
 - ## Value Types e Reference Types:
   - **Definições:**
+  - A memória é dividida em duas partes, **Heap** e **Stack**;
+  - Heap armazena dados;
+  - Stack armazena referências para os dados;
+  - Qualquer tipo no .NET é tratado como:
+	- Tipo de referência(**Reference Type**);
+	- Tipo de valor (**Value Type**);
+  - Tipos de valor armazenam dados;
+  - São armazenados em local de memória chamada **Stack**;
+  - Quando armazenamos um valor, a memória é alocada;
+  - Este espaço armazenao dado criado;
+  - Nossa variável acessa este dado diretamente;
+  - Se assimirmos uma variável do tipo de valor a outra;
+	- O valor será **COPIADO**;
+	- Ambas serão independentes;
+  - Built-in, Structs, Enums, são todos do tipo valor;
+  - **Garbage Collector**(verifica a memória heap, que são os endereços, quando algo não está sendo usado, ele remove o objeto fazendo a otimização do nosso programa) não acessa o **Stack**;
+  - ~~~C#
+	int x = 25;
+	int y = x; //y é uma cópia de x
+	
+	Console.WriteLine(x) //25
+	Console.WriteLine(y) //25
+	
+	x = 32; //somente x foi alterado;
+	
+	Console.WriteLine(x) //32
+	Console.WriteLine(y) //25
+   ~~~
+  - Já os tipo de referência Reference Type armazenam o endereço do objeto que contém os dados;
+  - Não armazenam os dados em si;
+  - São armazenados em um local de memória chamado **Heap**;
+  - Ao assimilar uma variavél:
+  - Criará uam **referência**;
+	- Aponta para a mesma informação;
+	- Não são independentes;
+  - Quando não são mais utilizadossão marcados para a exclusão;
+  - O **Garbage Collector** passa removendo todos eles;
+  - Classes, Objects, Arrays...
+  - ~~~C#
+	var arr = new string[2];
+	arr[0] = "Item 1";
+	var arr2 = arr; //não cria uma cópia
+	
+	Console.WriteLine(arr[0]);
+	Console.WriteLine(arr2[0]);
+	
+	// Altera as duas listas
+	arr[0] = "Item Alterado";
+	Console.WriteLine(arr[0]);
+	Console.WriteLine(arr2[0]);
+   ~~~
 
 - ## Value Types e Reference Types - Prática:
 - ## Structs
