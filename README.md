@@ -1443,18 +1443,6 @@ em meados de 2001;
 	- Ambas serão independentes;
   - Built-in, Structs, Enums, são todos do tipo valor;
   - **Garbage Collector**(verifica a memória heap, que são os endereços, quando algo não está sendo usado, ele remove o objeto fazendo a otimização do nosso programa) não acessa o **Stack**;
-  - ~~~C#
-	int x = 25;
-	int y = x; //y é uma cópia de x
-	
-	Console.WriteLine(x) //25
-	Console.WriteLine(y) //25
-	
-	x = 32; //somente x foi alterado;
-	
-	Console.WriteLine(x) //32
-	Console.WriteLine(y) //25
-   ~~~
   - Já os tipo de referência Reference Type armazenam o endereço do objeto que contém os dados;
   - Não armazenam os dados em si;
   - São armazenados em um local de memória chamado **Heap**;
@@ -1465,7 +1453,28 @@ em meados de 2001;
   - Quando não são mais utilizadossão marcados para a exclusão;
   - O **Garbage Collector** passa removendo todos eles;
   - Classes, Objects, Arrays...
+
+- ## Value Types e Reference Types - Prática:
+- ## Structs
+  - **Definições:**
+  - Os tipos de valor sempre que igualamos um vlor como no caso de x e y ele cria uam cópia do valor;
+  - Deve- tonar cuidado com objetos muito grandes, para não estourar a memória;
   - ~~~C#
+	int x = 25;
+	int y = x; //y é uma cópia de x
+	
+	Console.WriteLine(x); //25
+	Console.WriteLine(y); //25
+	
+	x = 32; //somente x foi alterado;
+	
+	Console.WriteLine(x); //32
+	Console.WriteLine(y); //25
+   ~~~
+   - No segundo caso ele não cria uma cópia do array, pois ele só guarda a referência da informação na memória;
+   - Nesse caso a vantagem é que gasta menos memória;
+   - Mas a desvantagem é que tudo o que você faz em um acaba replicando em outro sem querer;
+   - ~~~C#
 	var arr = new string[2];
 	arr[0] = "Item 1";
 	var arr2 = arr; //não cria uma cópia
@@ -1478,10 +1487,8 @@ em meados de 2001;
 	Console.WriteLine(arr[0]);
 	Console.WriteLine(arr2[0]);
    ~~~
-
-- ## Value Types e Reference Types - Prática:
-- ## Structs
-  - **Definições:**
+   - Lembrando que ValueTypes são todos os built-in Types + Structs + Enums
+   - E Reference Types são arrays, etc; 
 
 - ## Structs - Prática:
 - ## Enums:
