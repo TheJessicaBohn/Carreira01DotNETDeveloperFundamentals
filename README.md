@@ -1488,7 +1488,56 @@ em meados de 2001;
 	Console.WriteLine(arr2[0]);
    ~~~
    - Lembrando que ValueTypes são todos os built-in Types + Structs + Enums
-   - E Reference Types são arrays, etc; 
+   - E Reference Types são arrays, etc;
+   
+- ## Structs:
+  -**Definições:**
+  - Tipo de dado estruturado;
+  - Apenas a estrutura, o esqueleto;
+  - Tipos de valor.
+  - Amazenam apenas outros tipos de dados;
+  - Definido pela palavra **struct**;
+  - Composto de propriedades e métodos;
+  - Nome sempre com maiúculo: o mesmo para propriedades e métodos;
+  - Criado a partir da palavra **new**: nesse momentto sim temos os valores;
+  - Boa base para Orientação objeto;
+  - A anatomia de uma estrutura normalmente é:
+  - ~~~C#
+	struc Product
+	{
+		// Propriedades: nome, tipo, código de barras, etc;
+		public int Id;
+		public string Title;
+		public float Price;
+		
+		// Método construtor
+		public Product(int id, string title, float price)
+		{
+			Id = id;
+			Title = title;
+			Price = price;
+		}
+
+		// Métodos: verificarEstoque, comprar, pagar;
+		public float PriceInDolar(float dolar)
+		{
+			return Price * dolar;
+		}
+	}
+	
+	static void Main(string[] args)
+	{
+		// Cria estrutura;
+		var product = new Product();
+		
+		product.Id = 1;
+		product.Title = "Mouse game";
+		product.Price = 197.23f;
+		Console.WriteLine(product.Id);
+		Console.WriteLine(product.Title);
+		Console.WriteLine(product.Price);
+	}
+   ~~~
 
 - ## Structs - Prática:
 - ## Enums:
