@@ -1510,7 +1510,7 @@ em meados de 2001;
 		public string Title;
 		public float Price;
 		
-		// Método construtor
+		// Método construtor, não tem retorno e mesmo nome do struct, e ele é executado quando da um new nele
 		public Product(int id, string title, float price)
 		{
 			Id = id;
@@ -1528,20 +1528,24 @@ em meados de 2001;
 	static void Main(string[] args)
 	{
 		// Cria estrutura;
-		var product = new Product();
+		var product = new Product( 1, "Mouse game", 197.23f;);
 		
-		product.Id = 1;
-		product.Title = "Mouse game";
-		product.Price = 197.23f;
 		Console.WriteLine(product.Id);
 		Console.WriteLine(product.Title);
 		Console.WriteLine(product.Price);
+		Console.WriteLine(product.PriceInDolar(5.07f));
 	}
    ~~~
 
 - ## Structs - Prática:
 - ## Enums:
   - **Definições:**
+  - Structs não são funções, não podemos cria-los dentro de uma classe, pois eles competem com as classes;
+  - Como ele é composto por propiedades e métodos, podemos ter uma propriedade ```prop + tab``` cria uma propriedade ```public int My Property```
+  - Começando com letra maíuscula é uma propriedade;
+  - Começando com letra minúscula é um parâmeto;
+  - Lembrando que o C# é case sensitive;
+  - Podemos criar um método construtor, lembrando de explicitar as propriedades;
 
 - ## Revisão:
   - **Definições:**

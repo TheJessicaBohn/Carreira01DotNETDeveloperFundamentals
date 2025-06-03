@@ -39,8 +39,26 @@ class Program
 
         Console.WriteLine(x); //32
         Console.WriteLine(y); //25
+
+        // instaciando uma struct de forma vazia
+        var mouse = new Product();
+
+        Console.WriteLine(mouse.Id);
+        Console.WriteLine(mouse.Name);
+        Console.WriteLine(mouse.Price);
+
+        // instaciando uma struct de com parâmetros
+        Product mouseGamer = new Product(1, "Mouse Gamer", 100.50);
+
+        // sobrescrevendo a propriedade:
+        mouseGamer.Id = 55;
+
+        Console.WriteLine(mouse.Id);
+        Console.WriteLine(mouse.Name);
+        Console.WriteLine(mouse.Price);
+
     }
-    
+
     static void VarivavelDeReferencia()
     {
         var arr = new string[2];
@@ -49,10 +67,30 @@ class Program
 
         Console.WriteLine(arr[0]);
         Console.WriteLine(arr2[0]);
-        
+
         // Altera as duas listas
         arr[0] = "Item Alterado";
         Console.WriteLine(arr[0]);
         Console.WriteLine(arr2[0]);
+    }
+
+    struct Product
+    {
+        // Método construtor
+        public Product(int id, string name, double price)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+        }
+
+        public int Id;
+        public string Name;
+        public double Price;
+
+        public double PriceInDolas(double dolar)
+        {
+            return Price * dolar; 
+        }
     }
 }
