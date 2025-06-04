@@ -1538,15 +1538,56 @@ em meados de 2001;
    ~~~
 
 - ## Structs - Prática:
-- ## Enums:
-  - **Definições:**
+ - **Definições:**
   - Structs não são funções, não podemos cria-los dentro de uma classe, pois eles competem com as classes;
   - Como ele é composto por propiedades e métodos, podemos ter uma propriedade ```prop + tab``` cria uma propriedade ```public int My Property```
   - Começando com letra maíuscula é uma propriedade;
   - Começando com letra minúscula é um parâmeto;
   - Lembrando que o C# é case sensitive;
   - Podemos criar um método construtor, lembrando de explicitar as propriedades;
-
+ 
+- ## Enums:
+ - **Definições:**
+ - (Int)Usado para fornecer uma melhor visualização do código;
+ - Ex: Uso para indicar estado cívil;
+ - Substituiem o uso de inteiros;
+ - Usados em listas curtas;
+ - Usados em dados fixos: Hard Coded
+ - Sempre em maiúscula e começar com a letra E;
+ - Anatomia do enumerador:
+ - ~~~C#
+	enum EEstadoCivil
+	{
+		Solteiro = 1;
+		Casado = 2;
+		Divorciado = 3;
+	}
+   ~~~
+ - Ele também é usado como um tipo, usando o enumerador ao invés de escrever um inteiro:
+ - ~~~C#
+	struc Cliente
+	{
+		public string Nome;
+		public EEstadoCivil;
+	}
+	
+	// sem enumeradores 
+	var cliente = new Cliente("João Silva", 1)
+	
+	// Com enumerador
+	var cliente = new Cliente("João Silva", EEstadoCivil.Casado);
+   ~~~
+   - O Uso do Enumerador é para se ter um código mais expressivo e não fazer o programador ler tabelas e parar o seu trabalho;
+   - Exibindo dados de um enumerador:
+   - ~~~C#
+		Console.WriteLine(cliente.Nome);
+		Console.WriteLine(cliente.EstadoCivil); // escreve casado
+		Console.WriteLine((int)cliente.EstadoCivil); // escreve 2 conversão inteira;
+	 ~~~
+	 
+- ## Enums - Prática:
+ - **Definições:**
+ 
 - ## Revisão:
   - **Definições:**
 
