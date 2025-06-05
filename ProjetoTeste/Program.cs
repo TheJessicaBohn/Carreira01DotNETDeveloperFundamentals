@@ -48,14 +48,16 @@ class Program
         Console.WriteLine(mouse.Price);
 
         // instaciando uma struct de com parâmetros
-        Product mouseGamer = new Product(1, "Mouse Gamer", 100.50);
-
+        Product mouseGamer = new Product(1, "Mouse Gamer", 100.50, EProductType.Product);
+        var manutencaoEletrica = new Product(2, "Manutenção Elétrica Residencial", 500, EProductType.Service);
         // sobrescrevendo a propriedade:
         mouseGamer.Id = 55;
 
         Console.WriteLine(mouse.Id);
         Console.WriteLine(mouse.Name);
         Console.WriteLine(mouse.Price);
+        Console.WriteLine(mouse.Type);
+        Console.WriteLine((int)mouse.Type);
 
     }
 
@@ -77,20 +79,28 @@ class Program
     struct Product
     {
         // Método construtor
-        public Product(int id, string name, double price)
+        public Product(int id, string name, double price, EProductType type)
         {
             Id = id;
             Name = name;
             Price = price;
+            Type = type;
         }
 
         public int Id;
         public string Name;
         public double Price;
+        public EProductType Type;
 
         public double PriceInDolas(double dolar)
         {
-            return Price * dolar; 
+            return Price * dolar;
         }
+    }
+
+    enum EProductType
+    {
+        Product = 1,
+        Service = 2
     }
 }

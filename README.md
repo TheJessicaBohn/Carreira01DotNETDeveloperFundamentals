@@ -1586,11 +1586,12 @@ em meados de 2001;
 	 ~~~
 	 
 - ## Enums - Prática:
- - **Definições:**
+ - **Definições:** 
+ - Ele não pode ser criado dentro de uma estrutura ou dentro de uma classe;
+ - Não pode ter espaços ou caracteres especiais, ou Ç;
  
 - ## Revisão:
   - **Definições:**
-
 
 ## Mão na massa - Criando uma calculadora:
 - ## Iniciando o projeto:
