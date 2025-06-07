@@ -1591,7 +1591,17 @@ em meados de 2001;
  - Não pode ter espaços ou caracteres especiais, ou Ç;
  
 - ## Revisão:
-  - **Definições:**
+  - **Nesse módulo aprendemos:**
+  - Consoles, Variáveis, Constantes(base do .Net);
+  - Tipos de dados(primitivos built-in types);
+  - Converão de dados( conversão implícita e explicita, cast e convert) ;
+  - Operadores(Aritméticos, Atribuição, Comparação e Lógicos)
+  - Estruturas Condicionais(if e switch);
+  - Laços de repetição(for, while e do/while);
+  - Funções e métodos(como organizamos melhor o nosso programa);
+  - Tipos de referência e tipos de valor(Heap e Stack);
+  - Estruturas(tipos customizados);
+  - Enumeradores;
 
 ## Mão na massa - Criando uma calculadora:
 - ## Iniciando o projeto:
