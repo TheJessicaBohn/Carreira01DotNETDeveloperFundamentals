@@ -1603,7 +1603,7 @@ em meados de 2001;
   - Estruturas(tipos customizados);
   - Enumeradores;
 
-## Mão na massa - Criando uma calculadora:
+## Mão na massa - [Criando uma calculadora](https://github.com/TheJessicaBohn/Carreira01DotNETDeveloperFundamentals/tree/main/Calculator):
 - ## Iniciando o projeto:
 - Na sua pastinha do projeto crie um novo projeto console: ```dotnet new console -o Calculator```
 - para entrar na pasta do projeto ```cd C``` + tab;
