@@ -1585,7 +1585,7 @@ em meados de 2001;
 		Console.WriteLine((int)cliente.EstadoCivil); // escreve 2 conversão inteira;
 	 ~~~
 	 
-- ## Enums - Prática:
+- ## Enums - [Prática](https://github.com/TheJessicaBohn/Carreira01DotNETDeveloperFundamentals/blob/main/ProjetoTeste/Program.cs):
  - **Definições:** 
  - Ele não pode ser criado dentro de uma estrutura ou dentro de uma classe;
  - Não pode ter espaços ou caracteres especiais, ou Ç;
