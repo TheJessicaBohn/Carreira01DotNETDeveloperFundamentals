@@ -1605,7 +1605,9 @@ em meados de 2001;
 
 ## Mão na massa - Criando uma calculadora:
 - ## Iniciando o projeto:
-- ![image](https://github.com/user-attachments/assets/fcd8c4a6-9822-464d-a186-c3b9241bcc8e)
+- Na sua pastinha do projeto crie um novo projeto console: ```dotnet new console -o Calculator```
+- para entrar na pasta do projeto ```cd C``` + tab;
+- Para criar os assets entre no debug e: ![image](https://github.com/user-attachments/assets/fcd8c4a6-9822-464d-a186-c3b9241bcc8e)
 - ## Soma:
 - ## Utilizando Funções:
 - ## Subtração:
