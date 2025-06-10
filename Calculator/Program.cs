@@ -8,6 +8,16 @@ class Program
         Console.WriteLine("Primeiro valor: "); // mensagem para o usuário;
         float v1 = float.Parse(Console.ReadLine()); // float pois o usuário pode digitar um número quebrado, lembrando que o console retorna uma string então deve-se fazer a conversão com parse o Readline espera o usuário dar um enter;
 
-        Console.WriteLine(v1); //Exibe valor na tela
+        Console.WriteLine("Segundo valor:");
+        float v2 = float.Parse(Console.ReadLine());
+
+        float resultado = v1 + v2;
+
+        Console.WriteLine(" ");// pula uma linha
+        Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + " é de " + resultado);
+        Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {resultado}"); // concatena em string {interpolação de string}
+        Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {v1 + v2}");
+        Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + " é de " + (v1 + v2));
+
     }
 }

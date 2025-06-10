@@ -1609,6 +1609,16 @@ em meados de 2001;
 - para entrar na pasta do projeto ```cd C``` + tab;
 - Para criar os assets entre no debug e: ![image](https://github.com/user-attachments/assets/fcd8c4a6-9822-464d-a186-c3b9241bcc8e)
 - ## Soma:
+- ~~~C#
+		onsole.Clear(); // limpa a tela antes de iniciar a aplicação;
+        Console.WriteLine("Primeiro valor: "); // mensagem para o usuário;
+        float v1 = float.Parse(Console.ReadLine()); // float pois o usuário pode digitar um número quebrado, lembrando que o console retorna uma string então deve-se fazer a conversão com parse o Readline espera o usuário dar um enter;
+
+        Console.WriteLine("Segundo valor:");
+        float v2 = float.Parse(Console.ReadLine());
+
+        float resultado = v1 + v2;
+  ~~~
 - ## Utilizando Funções:
 - ## Subtração:
 - ## Divisão:
