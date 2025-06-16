@@ -1620,6 +1620,9 @@ em meados de 2001;
         float resultado = v1 + v2;
   ~~~
 - ## Utilizando Funções:
+  - Nossa calculadora vai ter várias funcionalidades(+,-,/,*) então não é legal que tudo fique dentro do método Main
+  - Vamos criar o método ```Soma()```, e chamá-lo dentro do Main;
+  - É uma boa prática fazer com que os métodos fiquem separados e com funções únicas;
 - ## Subtração:
 - ## Divisão:
 - ## Multiplicação:
