@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Soma();
+        Subtracao();
     }
 
     static void Soma()
@@ -21,7 +22,23 @@ class Program
         Console.WriteLine(" ");// pula uma linha
         // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + " é de " + resultado);
         Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {resultado}"); // concatena em string {interpolação de string}
-        // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {v1 + v2}");
-        // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + " é de " + (v1 + v2));
+                                                                                               // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {v1 + v2}");
+        Console.ReadKey(); // pra ele simplemente não sair da tela
+    }
+
+    static void Subtracao()
+    {
+        Console.Clear();
+
+        Console.WriteLine("Primeiro valor:");
+        float v1 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Segundo valor:");
+        float v2 = float.Parse(Console.ReadLine());
+        Console.WriteLine("");
+
+        Console.WriteLine(" O resultado da subtração de " + v1 + " - " + v2 + " é de " + (v1 - v2));
+        Console.ReadKey(); // pra ele simplemente não sair da tela
+
     }
 }
