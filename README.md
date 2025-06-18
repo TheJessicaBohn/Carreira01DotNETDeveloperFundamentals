@@ -1629,6 +1629,8 @@ em meados de 2001;
   - Basicamente só muda o sinal da operação;
   
 - ## Divisão:
+  - O código pode parecer repetitivo, mas a ideia de se repetir código é para se gurardar a sintáxe, e familiarizar com a linguagem;
+
 - ## Multiplicação:
 - ## Menu da aplicação:
 - ## Chamando as funções:

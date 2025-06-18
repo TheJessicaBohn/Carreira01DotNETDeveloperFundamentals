@@ -6,6 +6,7 @@ class Program
     {
         Soma();
         Subtracao();
+        Divisao();
     }
 
     static void Soma()
@@ -20,7 +21,6 @@ class Program
         float resultado = v1 + v2;
 
         Console.WriteLine(" ");// pula uma linha
-        // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + " é de " + resultado);
         Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {resultado}"); // concatena em string {interpolação de string}
                                                                                                // Console.WriteLine(" O resultadoda soma de " + v1 + " + " + v2 + $" é de {v1 + v2}");
         Console.ReadKey(); // pra ele simplemente não sair da tela
@@ -41,4 +41,23 @@ class Program
         Console.ReadKey(); // pra ele simplemente não sair da tela
 
     }
+
+    static void Divisao()
+    {
+        Console.Clear();
+
+        Console.WriteLine("Primeiro valor:");
+        float v1 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Segundo valor:");
+        float v2 = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("");
+
+        float resultado = v1 / v2;
+        Console.WriteLine(" O resultadoda divisão de " + v1 + " / " + v2 + " é de " + resultado);
+
+        Console.ReadKey();
+    }
+
 }
