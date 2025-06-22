@@ -1632,7 +1632,12 @@ em meados de 2001;
   - O código pode parecer repetitivo, mas a ideia de se repetir código é para se gurardar a sintáxe, e familiarizar com a linguagem;
 
 - ## Multiplicação:
+	- Último método da nossa calculadora;
+	- É importante lembrar dos tipos de conversão;
+	
 - ## Menu da aplicação:
+  - É a seleção de qual operação o usuário quer utilizar;
+  - Vamos utilizar o tipo short que o menor tipo de número que poderiamos ter;
 - ## Chamando as funções:
 - ## Saindo da aplicação:
 - ## Revisão:
