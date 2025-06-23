@@ -1638,7 +1638,13 @@ em meados de 2001;
 - ## Menu da aplicação:
   - É a seleção de qual operação o usuário quer utilizar;
   - Vamos utilizar o tipo short que o menor tipo de número que poderiamos ter;
+
 - ## Chamando as funções:
+  - Precisamos decidir qual operação vai chamar para o usuário;
+  - Poderiamos muito bem utilizar o ```if-else```, porém teríamos muitos ifs e muitas coisas encadeadas;
+  - A melhor opção é o uso do ```switch-case```;
+  - Também, é feito melhorias para que al final de cada função o Menu seja chamado novamente;
+
 - ## Saindo da aplicação:
 - ## Revisão:
 
@@ -1797,7 +1803,7 @@ em meados de 2001;
 - **Tipo de dado:** um tipo de dado define  o formato dele, onde definimos por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante;
 - ```Ctrl + ' ```: Toggle o terminal do VS Code;
 - **Warnings:** alertas para melhoria de código;
-- **XML:** Extensible Markup Language, uma linguagem de marcação que já foi muito usuada durante um tempo para tráfego de informações entre um sistema e outro, mas atualmente não tão usado assim, porém o .NET ainda utiliza por conta da retrocompatibilidade com sistemas anteriores;
+- **XML:** Extensible Markup Language, uma linguagem de marcação que já foi muito usada durante um tempo para tráfego de informações entre um sistema e outro, mas atualmente não tão usado assim, porém o .NET ainda utiliza por conta da retrocompatibilidade com sistemas anteriores;
 
 ## Fontes: 
 Lembrando que todas os links já estão no corpo de texto em caso de download, e todas as imagens são próprias minhas feitas em paint ou Canva, ou então são retiradas das documentações do sites da Microsoft, o conteúdo pertence ao link abaixo do curso do [balta.io](https://balta.io/), com algumas modificações e considerações minhas. A finalidade desse repositório é apenas para estudo pessoal e ajudar qualquer pessoa que esteja acompanhando o curso, mas com o resumo dos slides em .md, além de estar atualizado em .NET 8. Esse repositório não visa qualquer tipo de fim lucrativo. 
